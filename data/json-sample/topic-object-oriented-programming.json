@@ -1,0 +1,259 @@
+{
+    "component": "Topics\/Show",
+    "props": {
+        "errors": [],
+        "auth": {
+            "signedIn": true,
+            "user": {
+                "id": 213140,
+                "username": "giseller403",
+                "avatar": "\/\/www.gravatar.com\/avatar\/5e15f7aa5701873bb1178669dae4255e?s=100&d=https%3A%2F%2Fs3.amazonaws.com%2Flaracasts%2Fimages%2Fforum%2Favatars%2Fdefault-avatar-21.png",
+                "reported": null,
+                "email": "gassudah@yandex.com",
+                "profile": {
+                    "full_name": null,
+                    "bio": null,
+                    "twitter": "",
+                    "github": "",
+                    "website": "",
+                    "employment": "",
+                    "job_title": "Software Engineer",
+                    "location": "",
+                    "flag": null,
+                    "available_for_hire": 0
+                },
+                "settings": {
+                    "show_forum_excerpts": true,
+                    "float_video_player": true,
+                    "show_profile": true
+                },
+                "trusted": true,
+                "plan": {
+                    "name": "Monthly",
+                    "type": "monthly-15",
+                    "icon": "monthly"
+                },
+                "show_profile": null,
+                "last_four": "2388",
+                "billing_details": null,
+                "needs_new_card_number": false,
+                "subscription_ends_at": null,
+                "pause_until": null,
+                "invoices_paused": null,
+                "dateSegments": {
+                    "created_diff": "1 hour ago",
+                    "subscription_ends_at_for_humans": null,
+                    "pause_until_for_humans": null
+                },
+                "subscribed": true,
+                "canceled": false,
+                "expired": false,
+                "active": true,
+                "billable": true,
+                "streaking": false
+            }
+        },
+        "flash": {
+            "success": null,
+            "error": null,
+            "overlay": null
+        },
+        "announcement": false,
+        "recaptchaKey": "6LcdNFYUAAAAAIDK9F6CBZ660yOrxEyUYme687b2",
+        "taxonomies": [
+            {
+                "id": 1,
+                "name": "Frameworks",
+                "slug": "frameworks",
+                "created_at": "2020-04-22T18:39:35.000000Z",
+                "updated_at": "2021-06-19T04:00:53.000000Z",
+                "series_count": 53,
+                "episode_count": 912,
+                "path": "https:\/\/laracasts.com\/browse\/frameworks"
+            },
+            {
+                "id": 2,
+                "name": "Testing",
+                "slug": "testing",
+                "created_at": "2020-04-22T18:39:47.000000Z",
+                "updated_at": "2021-01-29T05:00:23.000000Z",
+                "series_count": 11,
+                "episode_count": 90,
+                "path": "https:\/\/laracasts.com\/browse\/testing"
+            },
+            {
+                "id": 3,
+                "name": "Languages",
+                "slug": "languages",
+                "created_at": "2020-04-22T18:40:03.000000Z",
+                "updated_at": "2021-06-17T04:00:35.000000Z",
+                "series_count": 17,
+                "episode_count": 146,
+                "path": "https:\/\/laracasts.com\/browse\/languages"
+            },
+            {
+                "id": 4,
+                "name": "Tooling",
+                "slug": "tooling",
+                "created_at": "2020-04-22T18:40:14.000000Z",
+                "updated_at": "2021-06-17T04:00:35.000000Z",
+                "series_count": 29,
+                "episode_count": 342,
+                "path": "https:\/\/laracasts.com\/browse\/tooling"
+            },
+            {
+                "id": 5,
+                "name": "Techniques",
+                "slug": "techniques",
+                "created_at": "2020-05-05T13:49:57.000000Z",
+                "updated_at": "2021-06-15T04:00:34.000000Z",
+                "series_count": 32,
+                "episode_count": 348,
+                "path": "https:\/\/laracasts.com\/browse\/techniques"
+            }
+        ],
+        "taxonomy": {
+            "path": "https:\/\/laracasts.com\/browse"
+        },
+        "topic": {
+            "name": "OOP",
+            "episode_count": 27,
+            "series_count": 4,
+            "path": "https:\/\/laracasts.com\/topics\/object-oriented-programming",
+            "theme": "four",
+            "thumbnail": "OOP-logo.svg",
+            "series": [
+                {
+                    "id": 122,
+                    "title": "Open-Closed Workshop",
+                    "body": "<p>In this workshop, we&#039;ll focus exclusively on the open-closed principle (<em>the O in SOLID<\/em>). Using real-life code, line by line, we&#039;ll refactor a confusing class into something far more manageable and extendable. Once finished, we&#039;ll have gained the luxury of introducing new functionality, not by modifying existing code, but by instead writing a new class.<\/p>",
+                    "path": "\/series\/open-closed-workshop",
+                    "strippedBody": "In this workshop, we&#039;ll focus exclusively on the open-closed principle (the O in SOLID). Using real-life code, line by line, we&#039;ll refactor a confusing class into something far more manageable and extendable. Once finished, we&#039;ll have gained the luxury of introducing new functionality, not by modifying existing code, but by instead writing a new class.",
+                    "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/open-closed-workshop.png",
+                    "large_thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/social-cards\/open-closed-workshop.png",
+                    "svgThumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/svg\/open-closed-workshop.svg",
+                    "slug": "open-closed-workshop",
+                    "episodeCount": 5,
+                    "difficultyLevel": "Advanced",
+                    "version": null,
+                    "version_notes": null,
+                    "archived": 0,
+                    "runTime": "48m",
+                    "taxonomy": {
+                        "name": "Techniques",
+                        "path": "https:\/\/laracasts.com\/browse\/techniques"
+                    },
+                    "hasChapters": false,
+                    "viewingStatus": {
+                        "isWatchingLater": false
+                    },
+                    "progress": {
+                        "started": false,
+                        "completionPercentage": 0,
+                        "episodesCompleted": 0,
+                        "completed": false,
+                        "nextEpisodePosition": 1
+                    }
+                },
+                {
+                    "id": 104,
+                    "title": "Object-Oriented Principles in PHP",
+                    "body": "<p>The typical beginner, whether they realize it or not, first learns procedural programming. But, before too long, they level up. Suddenly, an entirely different paradigm is introduced: object-oriented programming. Little do they know that they&#039;ll spend years researching and learning exactly what it means to work with objects and messages.<\/p>\n<p>In this series, you&#039;ll be introduced to the core principles of object-oriented programming in PHP. We&#039;ll begin with the basic constructs and work our way up.<\/p>",
+                    "path": "\/series\/object-oriented-principles-in-php",
+                    "strippedBody": "The typical beginner, whether they realize it or not, first learns procedural programming. But, before too long, they level up. Suddenly, an entirely different paradigm is introduced: object-oriented programming. Little do they know that they&#039;ll spend years researching and learning exactly what it means to work with objects and messages.\nIn this series, you&#039;ll be introduced to the core principles of object-oriented programming in PHP. We&#039;ll begin with the basic constructs and work our way up.",
+                    "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/object-oriented-principles-in-php.png",
+                    "large_thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/social-cards\/object-oriented-principles-in-php.png",
+                    "svgThumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/svg\/object-oriented-principles-in-php.svg",
+                    "slug": "object-oriented-principles-in-php",
+                    "episodeCount": 9,
+                    "difficultyLevel": "Beginner",
+                    "version": null,
+                    "version_notes": null,
+                    "archived": 0,
+                    "runTime": "1h 33m",
+                    "taxonomy": {
+                        "name": "Languages",
+                        "path": "https:\/\/laracasts.com\/browse\/languages"
+                    },
+                    "hasChapters": true,
+                    "viewingStatus": {
+                        "isWatchingLater": false
+                    },
+                    "progress": {
+                        "started": false,
+                        "completionPercentage": 0,
+                        "episodesCompleted": 0,
+                        "completed": false,
+                        "nextEpisodePosition": 1
+                    }
+                },
+                {
+                    "id": 39,
+                    "title": "SOLID Principles in PHP",
+                    "body": "<p>SOLID represents a series of guidelines that developers can use to, if done well, simplify and clarify their code. While certainly not laws, understanding these concepts will make you a better developer.<\/p>",
+                    "path": "\/series\/solid-principles-in-php",
+                    "strippedBody": "SOLID represents a series of guidelines that developers can use to, if done well, simplify and clarify their code. While certainly not laws, understanding these concepts will make you a better developer.",
+                    "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/solid-principles-in-php.png",
+                    "large_thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/social-cards\/solid-principles-in-php.png",
+                    "svgThumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/svg\/solid-principles-in-php.svg",
+                    "slug": "solid-principles-in-php",
+                    "episodeCount": 5,
+                    "difficultyLevel": "Advanced",
+                    "version": null,
+                    "version_notes": null,
+                    "archived": 0,
+                    "runTime": "57m",
+                    "taxonomy": {
+                        "name": "Techniques",
+                        "path": "https:\/\/laracasts.com\/browse\/techniques"
+                    },
+                    "hasChapters": false,
+                    "viewingStatus": {
+                        "isWatchingLater": false
+                    },
+                    "progress": {
+                        "started": false,
+                        "completionPercentage": 0,
+                        "episodesCompleted": 0,
+                        "completed": false,
+                        "nextEpisodePosition": 1
+                    }
+                },
+                {
+                    "id": 38,
+                    "title": "Design Patterns in PHP",
+                    "body": "<p>A design pattern is a common solution to a common problem. Nothing more, nothing less. And, while some of these approaches might seem foreign or overwhelming to you, the important thing to remember is that, as a developer, you are in charge. That means you decide when a pattern is appropriate, and when it&#039;s completely unnecessary. That&#039;s the key.<\/p>",
+                    "path": "\/series\/design-patterns-in-php",
+                    "strippedBody": "A design pattern is a common solution to a common problem. Nothing more, nothing less. And, while some of these approaches might seem foreign or overwhelming to you, the important thing to remember is that, as a developer, you are in charge. That means you decide when a pattern is appropriate, and when it&#039;s completely unnecessary. That&#039;s the key.",
+                    "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/design-patterns-in-php.png",
+                    "large_thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/social-cards\/design-patterns-in-php.png",
+                    "svgThumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/svg\/design-patterns-in-php.svg",
+                    "slug": "design-patterns-in-php",
+                    "episodeCount": 8,
+                    "difficultyLevel": "Advanced",
+                    "version": null,
+                    "version_notes": null,
+                    "archived": 0,
+                    "runTime": "1h 43m",
+                    "taxonomy": {
+                        "name": "Techniques",
+                        "path": "https:\/\/laracasts.com\/browse\/techniques"
+                    },
+                    "hasChapters": false,
+                    "viewingStatus": {
+                        "isWatchingLater": false
+                    },
+                    "progress": {
+                        "started": false,
+                        "completionPercentage": 0,
+                        "episodesCompleted": 0,
+                        "completed": false,
+                        "nextEpisodePosition": 1
+                    }
+                }
+            ]
+        }
+    },
+    "url": "\/topics\/object-oriented-programming",
+    "version": "d121e9faeca6e2b3cb7d27d32e3a5216"
+}

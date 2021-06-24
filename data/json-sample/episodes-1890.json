@@ -1,0 +1,1438 @@
+{
+    "component": "Episodes\/Show",
+    "props": {
+        "errors": [],
+        "auth": {
+            "signedIn": true,
+            "user": {
+                "id": 213140,
+                "username": "giseller403",
+                "avatar": "\/\/www.gravatar.com\/avatar\/5e15f7aa5701873bb1178669dae4255e?s=100&d=https%3A%2F%2Fs3.amazonaws.com%2Flaracasts%2Fimages%2Fforum%2Favatars%2Fdefault-avatar-21.png",
+                "reported": null,
+                "email": "gassudah@yandex.com",
+                "profile": {
+                    "full_name": null,
+                    "bio": null,
+                    "twitter": "",
+                    "github": "",
+                    "website": "",
+                    "employment": "",
+                    "job_title": "Software Engineer",
+                    "location": "",
+                    "flag": null,
+                    "available_for_hire": 0
+                },
+                "settings": {
+                    "show_forum_excerpts": true,
+                    "float_video_player": true,
+                    "show_profile": true
+                },
+                "trusted": true,
+                "plan": {
+                    "name": "Monthly",
+                    "type": "monthly-15",
+                    "icon": "monthly"
+                },
+                "show_profile": null,
+                "last_four": "2388",
+                "billing_details": null,
+                "needs_new_card_number": false,
+                "subscription_ends_at": null,
+                "pause_until": null,
+                "invoices_paused": null,
+                "dateSegments": {
+                    "created_diff": "1 hour ago",
+                    "subscription_ends_at_for_humans": null,
+                    "pause_until_for_humans": null
+                },
+                "subscribed": true,
+                "canceled": false,
+                "expired": false,
+                "active": true,
+                "billable": true,
+                "streaking": false
+            }
+        },
+        "flash": {
+            "success": null,
+            "error": null,
+            "overlay": null
+        },
+        "announcement": false,
+        "recaptchaKey": "6LcdNFYUAAAAAIDK9F6CBZ660yOrxEyUYme687b2",
+        "series": {
+            "id": 135,
+            "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+            "body": "<p>\r\nLaravel offers several options for <a href=\"https:\/\/laravel.com\/docs\/authentication\">Authentication<\/a> in your applications. If you&#039;d prefer a head start, you might reach for one of the available first-party packages that provide robust, modern scaffolding for your authentication layer. For example, <a href=\"https:\/\/laravel.com\/docs\/8.x\/starter-kits#laravel-breeze\" target=\"_blank\">Laravel Breeze<\/a> is an excellent choice to get up and running quickly. If you require additional features, <a href=\"https:\/\/laravel.com\/docs\/8.x\/starter-kits#laravel-jetstream\" target=\"_blank\">Laravel Jetstream<\/a> offers two-factor auth, API tokens and team management. If you&#039;d instead prefer to use your own front-end stack, you might consider <a href=\"https:\/\/laravel.com\/docs\/8.x\/fortify\">Laravel Fortify<\/a> as the backend implementation.<\/p>\r\n\r\n<p> In this series, we&#039;ll review how to use and customize these packages in order to fit the authentication needs of your application.\r\n<\/p>",
+            "path": "\/series\/laravel-authentication-options",
+            "strippedBody": "\r\nLaravel offers several options for Authentication in your applications. If you&#039;d prefer a head start, you might reach for one of the available first-party packages that provide robust, modern scaffolding for your authentication layer. For example, Laravel Breeze is an excellent choice to get up and running quickly. If you require additional features, Laravel Jetstream offers two-factor auth, API tokens and team management. If you&#039;d instead prefer to use your own front-end stack, you might consider Laravel Fortify as the backend implementation.\r\n\r\n In this series, we&#039;ll review how to use and customize these packages in order to fit the authentication needs of your application.\r\n",
+            "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+            "large_thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/social-cards\/laravel-authentication-options.png",
+            "svgThumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/svg\/laravel-authentication.svg",
+            "slug": "laravel-authentication-options",
+            "episodeCount": 20,
+            "difficultyLevel": "Intermediate",
+            "version": null,
+            "version_notes": null,
+            "archived": 0,
+            "replacedBy": null,
+            "runTime": "3h 25m",
+            "taxonomy": {
+                "name": "Frameworks",
+                "path": "https:\/\/laracasts.com\/browse\/frameworks"
+            },
+            "author": {
+                "id": 2071,
+                "username": "drehimself",
+                "avatar": "\/\/unavatar.now.sh\/github\/drehimself?fallback=https:\/\/laracasts.s3.amazonaws.com\/avatars\/andre-madarang.jpg",
+                "reported": null,
+                "profile": {
+                    "github": "drehimself",
+                    "twitter": "drehimself",
+                    "full_name": "Andre Madarang",
+                    "website": "http:\/\/andremadarang.com",
+                    "bio": "Greetings! I&#039;m Andre, a full-stack web developer and Laracasts instructor. My other hobbies include playing guitar, videography and gaming."
+                },
+                "dateSegments": {
+                    "created_diff": "7 years ago"
+                }
+            },
+            "hasChapters": true,
+            "chapters": [
+                {
+                    "heading": "Laravel Breeze",
+                    "number": 1,
+                    "count": 1,
+                    "completed": false,
+                    "episodes": [
+                        {
+                            "id": 1890,
+                            "chapter": 1,
+                            "type": "episode",
+                            "title": "Breeze Overview and Usage",
+                            "body": "<p>Laravel Breeze is a minimal and simple starting point for your authentication scaffolding in Laravel. It\u2019s the successor to the <code>laravel\/ui<\/code> package and is built using Tailwind CSS, AlpineJS and Blade Components. It publishes everything needed for auth into your project folder, which means it\u2019s easily customizable - and even includes tests.<\/p>",
+                            "excerpt": "Laravel Breeze is a minimal and simple starting point for your authentication scaffolding in Laravel. It\u2019s the...",
+                            "source_code": null,
+                            "position": 1,
+                            "dateSegments": {
+                                "published": "January 4, 2021",
+                                "publishedAlt": "Jan 4th, 2021",
+                                "publishedDiff": "5 months ago",
+                                "whenAvailableForHumans": "5 months"
+                            },
+                            "whenAvailableDate": "5 months",
+                            "lengthForHumans": "7:28",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1890",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496910420.hd.mp4?s=27bf5dca122a5491fe677c303e6f3a5a0643aff5&profile_id=175"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Laravel Jetstream",
+                    "number": 2,
+                    "count": 7,
+                    "completed": false,
+                    "episodes": [
+                        {
+                            "id": 1891,
+                            "chapter": 2,
+                            "type": "episode",
+                            "title": "Jetstream Installation and Features",
+                            "body": "<p>\r\nLaravel Jetstream is a beautifully designed application scaffolding tool that provides a great starting point for your new applications. It\u2019s built with Tailwind CSS, AlpineJS and Blade Components and includes features like login, registration, profile management, two-factor auth, session management, API tokens, and teams. <\/p>\r\n\r\n<p>In this episode, we take a look at all of these features from a user\u2019s point of view.\r\n<\/p>",
+                            "excerpt": "\r\nLaravel Jetstream is a beautifully designed application scaffolding tool that provides a great starting point for your...",
+                            "source_code": "\/\/github.com\/laracasts\/lc-jetstream-example",
+                            "position": 2,
+                            "dateSegments": {
+                                "published": "January 6, 2021",
+                                "publishedAlt": "Jan 6th, 2021",
+                                "publishedDiff": "5 months ago",
+                                "whenAvailableForHumans": "5 months"
+                            },
+                            "whenAvailableDate": "5 months",
+                            "lengthForHumans": "10:51",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1891",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496960094.hd.mp4?s=2c2b7597057c16a4b5691a412cc6f9ca8146d951&profile_id=175"
+                        },
+                        {
+                            "id": 1892,
+                            "chapter": 2,
+                            "type": "episode",
+                            "title": "Customize Views",
+                            "body": "<p>Jetstream allows you to publish all views and Blade components to your project folder, making it easy to customize the look and feel of your application. Let&#039;s review how.<\/p>",
+                            "excerpt": "Jetstream allows you to publish all views and Blade components to your project folder, making it easy...",
+                            "source_code": "\/\/github.com\/laracasts\/lc-jetstream-example",
+                            "position": 3,
+                            "dateSegments": {
+                                "published": "January 6, 2021",
+                                "publishedAlt": "Jan 6th, 2021",
+                                "publishedDiff": "5 months ago",
+                                "whenAvailableForHumans": "5 months"
+                            },
+                            "whenAvailableDate": "5 months",
+                            "lengthForHumans": "11:46",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1892",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496960458.hd.mp4?s=982c4f3ab3517b124987337133668240666f12fe&profile_id=175"
+                        },
+                        {
+                            "id": 1893,
+                            "chapter": 2,
+                            "type": "episode",
+                            "title": "Customize Routes",
+                            "body": "<p>\r\nNext, we&#039;ll have a look at how to publish and customize routes for both Jetstream and Fortify. \r\n<\/p>",
+                            "excerpt": "\r\nNext, we&#039;ll have a look at how to publish and customize routes for both Jetstream and Fortify. \r\n",
+                            "source_code": "\/\/github.com\/laracasts\/lc-jetstream-example",
+                            "position": 4,
+                            "dateSegments": {
+                                "published": "January 7, 2021",
+                                "publishedAlt": "Jan 7th, 2021",
+                                "publishedDiff": "5 months ago",
+                                "whenAvailableForHumans": "5 months"
+                            },
+                            "whenAvailableDate": "5 months",
+                            "lengthForHumans": "7:40",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1893",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496959172.hd.mp4?s=367b0fe5abbc71c42de81b7ff3f3a67b21c0c446&profile_id=175"
+                        },
+                        {
+                            "id": 1894,
+                            "chapter": 2,
+                            "type": "episode",
+                            "title": "Actions",
+                            "body": "<p>\r\nMost of the functionality of Jetstream (and Fortify) can be customized by modifying corresponding Actions. These classes are all available in your project folder. Let&#039;s take a look at a few examples in this video.\r\n<\/p>",
+                            "excerpt": "\r\nMost of the functionality of Jetstream (and Fortify) can be customized by modifying corresponding Actions. These classes...",
+                            "source_code": "\/\/github.com\/laracasts\/lc-jetstream-example",
+                            "position": 5,
+                            "dateSegments": {
+                                "published": "January 8, 2021",
+                                "publishedAlt": "Jan 8th, 2021",
+                                "publishedDiff": "5 months ago",
+                                "whenAvailableForHumans": "5 months"
+                            },
+                            "whenAvailableDate": "5 months",
+                            "lengthForHumans": "15:28",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1894",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496958172.hd.mp4?s=33d6b8d95f7ff8cda9bc9558cb71acb488fd0d15&profile_id=175"
+                        },
+                        {
+                            "id": 1895,
+                            "chapter": 2,
+                            "type": "episode",
+                            "title": "API Tokens",
+                            "body": "<p>\r\nLet&#039;s now review Jetstream\u2019s API tokens feature. This is technically a feature of Laravel Sanctum, but Jetstream includes all the necessary frontend views and scaffolding to accomplish this. API Tokens allow you to issue API tokens \/ personal access tokens that may be used to authenticate API requests to your application.\r\n<\/p>",
+                            "excerpt": "\r\nLet&#039;s now review Jetstream\u2019s API tokens feature. This is technically a feature of Laravel Sanctum, but Jetstream...",
+                            "source_code": "\/\/github.com\/laracasts\/lc-jetstream-example",
+                            "position": 6,
+                            "dateSegments": {
+                                "published": "January 11, 2021",
+                                "publishedAlt": "Jan 11th, 2021",
+                                "publishedDiff": "5 months ago",
+                                "whenAvailableForHumans": "5 months"
+                            },
+                            "whenAvailableDate": "5 months",
+                            "lengthForHumans": "4:51",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1895",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496958199.hd.mp4?s=0ae5dfd6077996bde2b5bd4db9fa30f5b9e37321&profile_id=175"
+                        },
+                        {
+                            "id": 1896,
+                            "chapter": 2,
+                            "type": "episode",
+                            "title": "Team Support",
+                            "body": "<p>\r\nJetstream has built-in support for teams and team management. Let&#039;s have a look at making use of these features to extend a typical blog application to support teams.\r\n<\/p>",
+                            "excerpt": "\r\nJetstream has built-in support for teams and team management. Let&#039;s have a look at making use of...",
+                            "source_code": "\/\/github.com\/laracasts\/lc-jetstream-example",
+                            "position": 7,
+                            "dateSegments": {
+                                "published": "January 12, 2021",
+                                "publishedAlt": "Jan 12th, 2021",
+                                "publishedDiff": "5 months ago",
+                                "whenAvailableForHumans": "5 months"
+                            },
+                            "whenAvailableDate": "5 months",
+                            "lengthForHumans": "16:21",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1896",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496957525.hd.mp4?s=865c3cd0463a3b0f95beac248817caec997a2c2a&profile_id=175"
+                        },
+                        {
+                            "id": 1897,
+                            "chapter": 2,
+                            "type": "episode",
+                            "title": "Inertia Integration",
+                            "body": "<p>\r\nJetstream provides the option to choose Inertia as your Laravel Stack. Inertia replaces your Blade views and components with Vue components, if you prefer to work with JavaScript. Let&#039;s review a handful of examples where we modify pages and components with Vue.\r\n<\/p>",
+                            "excerpt": "\r\nJetstream provides the option to choose Inertia as your Laravel Stack. Inertia replaces your Blade views and...",
+                            "source_code": "\/\/github.com\/laracasts\/lc-jetstream-example",
+                            "position": 8,
+                            "dateSegments": {
+                                "published": "January 13, 2021",
+                                "publishedAlt": "Jan 13th, 2021",
+                                "publishedDiff": "5 months ago",
+                                "whenAvailableForHumans": "5 months"
+                            },
+                            "whenAvailableDate": "5 months",
+                            "lengthForHumans": "7:09",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1897",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496957410.hd.mp4?s=f404fac284a7c6197236421cdd8f5b5a0c3b8956&profile_id=175"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Laravel Fortify",
+                    "number": 3,
+                    "count": 9,
+                    "completed": false,
+                    "episodes": [
+                        {
+                            "id": 1898,
+                            "chapter": 3,
+                            "type": "episode",
+                            "title": "Login and Registration",
+                            "body": "<p>\r\nLet&#039;s install Fortify into a fresh Laravel application and take a look at creating the necessary front-end Blade views for logging in and registering.\r\n<\/p>",
+                            "excerpt": "\r\nLet&#039;s install Fortify into a fresh Laravel application and take a look at creating the necessary front-end...",
+                            "source_code": "https:\/\/github.com\/laracasts\/lc-fortify-example\/commits\/master",
+                            "position": 9,
+                            "dateSegments": {
+                                "published": "January 14, 2021",
+                                "publishedAlt": "Jan 14th, 2021",
+                                "publishedDiff": "5 months ago",
+                                "whenAvailableForHumans": "5 months"
+                            },
+                            "whenAvailableDate": "5 months",
+                            "lengthForHumans": "17:52",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1898",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496962093.hd.mp4?s=e0c696be6e37e475b9de85f931853671af32e90f&profile_id=175"
+                        },
+                        {
+                            "id": 1899,
+                            "chapter": 3,
+                            "type": "episode",
+                            "title": "Email Verification",
+                            "body": "<p>\r\nLet&#039;s take a look at verifying a user\u2019s email address after the registration process. We&#039;ll also briefly review how to customize the email template.\r\n<\/p>",
+                            "excerpt": "\r\nLet&#039;s take a look at verifying a user\u2019s email address after the registration process. We&#039;ll also briefly...",
+                            "source_code": "\/\/github.com\/laracasts\/lc-fortify-example\/commits\/master",
+                            "position": 10,
+                            "dateSegments": {
+                                "published": "January 15, 2021",
+                                "publishedAlt": "Jan 15th, 2021",
+                                "publishedDiff": "5 months ago",
+                                "whenAvailableForHumans": "5 months"
+                            },
+                            "whenAvailableDate": "5 months",
+                            "lengthForHumans": "8:36",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1899",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496963553.hd.mp4?s=1642b69e4c40f9268c5aeabaacbd8e32008537b3&profile_id=175"
+                        },
+                        {
+                            "id": 1900,
+                            "chapter": 3,
+                            "type": "episode",
+                            "title": "Reset Passwords",
+                            "body": "<p>\r\nIn this lesson, we&#039;ll learn how to allow users to enter their email for a forgotten password, receive an email, and then choose a new password with the reset password form.\r\n<\/p>",
+                            "excerpt": "\r\nIn this lesson, we&#039;ll learn how to allow users to enter their email for a forgotten password,...",
+                            "source_code": "\/\/github.com\/laracasts\/lc-fortify-example\/commits\/master",
+                            "position": 11,
+                            "dateSegments": {
+                                "published": "January 18, 2021",
+                                "publishedAlt": "Jan 18th, 2021",
+                                "publishedDiff": "5 months ago",
+                                "whenAvailableForHumans": "5 months"
+                            },
+                            "whenAvailableDate": "5 months",
+                            "lengthForHumans": "7:15",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1900",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496961157.hd.mp4?s=b5bbcb88ba54d609d1ef96b0096ade0be0fba443&profile_id=175"
+                        },
+                        {
+                            "id": 1901,
+                            "chapter": 3,
+                            "type": "episode",
+                            "title": "Profile and Password Updates",
+                            "body": "<p>\r\nIn this episode, we leverage Fortify to allow users to update their profile details and password.\r\n<\/p>",
+                            "excerpt": "\r\nIn this episode, we leverage Fortify to allow users to update their profile details and password.\r\n",
+                            "source_code": "https:\/\/github.com\/laracasts\/lc-fortify-example\/commits\/master",
+                            "position": 12,
+                            "dateSegments": {
+                                "published": "January 19, 2021",
+                                "publishedAlt": "Jan 19th, 2021",
+                                "publishedDiff": "5 months ago",
+                                "whenAvailableForHumans": "5 months"
+                            },
+                            "whenAvailableDate": "5 months",
+                            "lengthForHumans": "10:52",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1901",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496960905.hd.mp4?s=74cee449d74aa4d5dc55f57488be6525cdcd3c4f&profile_id=175"
+                        },
+                        {
+                            "id": 1902,
+                            "chapter": 3,
+                            "type": "episode",
+                            "title": "Password Confirmation",
+                            "body": "<p>Sometimes you want to confirm a user\u2019s password <em>before<\/em> performing a particular task. Fortify allows us to do this easily by creating a simple form along with the <code>password.confirm<\/code> middleware.<\/p>",
+                            "excerpt": "Sometimes you want to confirm a user\u2019s password before performing a particular task. Fortify allows us to...",
+                            "source_code": "\/\/github.com\/laracasts\/lc-fortify-example\/commits\/master",
+                            "position": 13,
+                            "dateSegments": {
+                                "published": "January 20, 2021",
+                                "publishedAlt": "Jan 20th, 2021",
+                                "publishedDiff": "5 months ago",
+                                "whenAvailableForHumans": "5 months"
+                            },
+                            "whenAvailableDate": "5 months",
+                            "lengthForHumans": "3:59",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1902",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496960865.hd.mp4?s=d5096282d01f6dbbe11d1f7cfe4afa4385a4d995&profile_id=175"
+                        },
+                        {
+                            "id": 1903,
+                            "chapter": 3,
+                            "type": "episode",
+                            "title": "Two-Factor Authentication",
+                            "body": "<p>\r\nLet&#039;s take a look at turning on two-factor authentication from within the user\u2019s dashboard. This involves rendering a QR code and generating recovery codes. We also take a look at building the two-factor challenge that requires the user to enter these codes to complete the authentication process.\r\n<\/p>",
+                            "excerpt": "\r\nLet&#039;s take a look at turning on two-factor authentication from within the user\u2019s dashboard. This involves rendering...",
+                            "source_code": "\/\/github.com\/laracasts\/lc-fortify-example\/commits\/master",
+                            "position": 14,
+                            "dateSegments": {
+                                "published": "January 21, 2021",
+                                "publishedAlt": "Jan 21st, 2021",
+                                "publishedDiff": "5 months ago",
+                                "whenAvailableForHumans": "5 months"
+                            },
+                            "whenAvailableDate": "5 months",
+                            "lengthForHumans": "16:33",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1903",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496962317.hd.mp4?s=a9a9f614bcfe76ba5b27790f26b1204a94ec1fa9&profile_id=175"
+                        },
+                        {
+                            "id": 1904,
+                            "chapter": 3,
+                            "type": "episode",
+                            "title": "API Usage",
+                            "body": "<p>\r\nLet&#039;s review how to leverage Fortify as an API to power third-party tools, like single-page or mobile apps. Fortify provides support for this and can simplify the entire process.\r\n<\/p>",
+                            "excerpt": "\r\nLet&#039;s review how to leverage Fortify as an API to power third-party tools, like single-page or mobile...",
+                            "source_code": "\/\/github.com\/laracasts\/lc-fortify-example\/commits\/master",
+                            "position": 15,
+                            "dateSegments": {
+                                "published": "January 22, 2021",
+                                "publishedAlt": "Jan 22nd, 2021",
+                                "publishedDiff": "5 months ago",
+                                "whenAvailableForHumans": "5 months"
+                            },
+                            "whenAvailableDate": "5 months",
+                            "lengthForHumans": "5:32",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1904",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496960616.hd.mp4?s=176cad6c94c9002f0837b3a52cf074c5dfb4a4bc&profile_id=175"
+                        },
+                        {
+                            "id": 1905,
+                            "chapter": 3,
+                            "type": "episode",
+                            "title": "SPA Authentication With Sanctum",
+                            "body": "<p>Let&#039;s have a look at using Sanctum in combination with Fortify to authenticate our single-page apps.\r\n<\/p>",
+                            "excerpt": "Let&#039;s have a look at using Sanctum in combination with Fortify to authenticate our single-page apps.\r\n",
+                            "source_code": "\/\/github.com\/laracasts\/lc-vue3-sanctum-fortify",
+                            "position": 16,
+                            "dateSegments": {
+                                "published": "January 25, 2021",
+                                "publishedAlt": "Jan 25th, 2021",
+                                "publishedDiff": "4 months ago",
+                                "whenAvailableForHumans": "4 months"
+                            },
+                            "whenAvailableDate": "4 months",
+                            "lengthForHumans": "13:47",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1905",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496960363.hd.mp4?s=5300668a026cf9c4b4f6a17cd8442d89b53c1849&profile_id=175"
+                        },
+                        {
+                            "id": 1906,
+                            "chapter": 3,
+                            "type": "episode",
+                            "title": "Mobile App Authentication With Sanctum",
+                            "body": "<p>Let&#039;s now use Sanctum to authenticate non-browser-based mobile or desktop applications.<\/p>",
+                            "excerpt": "Let&#039;s now use Sanctum to authenticate non-browser-based mobile or desktop applications.",
+                            "source_code": "\/\/github.com\/laracasts\/lc-fortify-example\/commits\/master",
+                            "position": 17,
+                            "dateSegments": {
+                                "published": "January 26, 2021",
+                                "publishedAlt": "Jan 26th, 2021",
+                                "publishedDiff": "4 months ago",
+                                "whenAvailableForHumans": "4 months"
+                            },
+                            "whenAvailableDate": "4 months",
+                            "lengthForHumans": "4:19",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1906",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/496961042.hd.mp4?s=b55267d40607bc2be0da7930a71dde78a291e83c&profile_id=175"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Manual Authentication",
+                    "number": 4,
+                    "count": 2,
+                    "completed": false,
+                    "episodes": [
+                        {
+                            "id": 1918,
+                            "chapter": 4,
+                            "type": "episode",
+                            "title": "Manual Login and Registration",
+                            "body": "<p>Let&#039;s now have a look at performing authentication manually using Laravel&#039;s built in authentication features. We&#039;ll start off by implementing a typical login and registration system.<\/p>",
+                            "excerpt": "Let&#039;s now have a look at performing authentication manually using Laravel&#039;s built in authentication features. We&#039;ll start...",
+                            "source_code": null,
+                            "position": 18,
+                            "dateSegments": {
+                                "published": "January 28, 2021",
+                                "publishedAlt": "Jan 28th, 2021",
+                                "publishedDiff": "4 months ago",
+                                "whenAvailableForHumans": "4 months"
+                            },
+                            "whenAvailableDate": "4 months",
+                            "lengthForHumans": "15:13",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1918",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/505766259.hd.mp4?s=5687caf046eee5f099017345c4d240ab57e053d7&profile_id=175"
+                        },
+                        {
+                            "id": 1919,
+                            "chapter": 4,
+                            "type": "episode",
+                            "title": "Forgot Password and Reset Password",
+                            "body": "<p>Next, we can use Laravel&#039;s internal <code>PasswordBroker<\/code> to implement the \"Forgot Password\" and \"Reset Password\" features.<\/p>",
+                            "excerpt": "Next, we can use Laravel&#039;s internal PasswordBroker to implement the \"Forgot Password\" and \"Reset Password\" features.",
+                            "source_code": "https:\/\/github.com\/laracasts\/lc-manual-auth-example",
+                            "position": 19,
+                            "dateSegments": {
+                                "published": "January 28, 2021",
+                                "publishedAlt": "Jan 28th, 2021",
+                                "publishedDiff": "4 months ago",
+                                "whenAvailableForHumans": "4 months"
+                            },
+                            "whenAvailableDate": "4 months",
+                            "lengthForHumans": "11:42",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1919",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "https:\/\/player.vimeo.com\/external\/505767451.hd.mp4?s=6420f29feca68ed00f99deb5a8237fa0bc7df5c1&profile_id=175"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Supplementary",
+                    "number": 5,
+                    "count": 1,
+                    "completed": false,
+                    "episodes": [
+                        {
+                            "id": 1920,
+                            "chapter": 5,
+                            "type": "episode",
+                            "title": "Jetstream Version 2 Upgrade Notes",
+                            "body": "<p>In this episode, come along as I review some of the new features that were introduced as part of Jetstream Version 2. This will include the terms and privacy policy, team invites, and feature tests.<\/p>",
+                            "excerpt": "In this episode, come along as I review some of the new features that were introduced as...",
+                            "source_code": null,
+                            "position": 20,
+                            "dateSegments": {
+                                "published": "January 28, 2021",
+                                "publishedAlt": "Jan 28th, 2021",
+                                "publishedDiff": "4 months ago",
+                                "whenAvailableForHumans": "4 months"
+                            },
+                            "whenAvailableDate": "4 months",
+                            "lengthForHumans": "7:57",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/1920",
+                            "series": {
+                                "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                                "taxonomy": {
+                                    "name": "Frameworks",
+                                    "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                                "path": "\/series\/laravel-authentication-options"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/505772865.hd.mp4?s=c84c9888298f7fd4272823361a360acd603b7070&profile_id=175"
+                        }
+                    ]
+                }
+            ],
+            "topics": [
+                {
+                    "name": "Laravel",
+                    "episode_count": 652,
+                    "series_count": 54,
+                    "path": "https:\/\/laracasts.com\/topics\/laravel",
+                    "theme": "default",
+                    "thumbnail": "laravel-logo.svg"
+                },
+                {
+                    "name": "Authentication",
+                    "episode_count": 30,
+                    "series_count": 3,
+                    "path": "https:\/\/laracasts.com\/topics\/authentication",
+                    "theme": "three",
+                    "thumbnail": "authentication-logo.svg"
+                },
+                {
+                    "name": "Laravel Packages",
+                    "episode_count": 70,
+                    "series_count": 9,
+                    "path": "https:\/\/laracasts.com\/topics\/laravel-packages",
+                    "theme": "nine",
+                    "thumbnail": "laravel-logo.svg"
+                }
+            ],
+            "viewingStatus": {
+                "isWatchingLater": false
+            },
+            "progress": {
+                "started": false,
+                "completionPercentage": 0,
+                "episodesCompleted": 0,
+                "completed": false,
+                "nextEpisodePosition": 1
+            },
+            "previousEpisode": null,
+            "nextEpisode": {
+                "id": 1891,
+                "chapter": 2,
+                "type": "episode",
+                "title": "Jetstream Installation and Features",
+                "body": "<p>\r\nLaravel Jetstream is a beautifully designed application scaffolding tool that provides a great starting point for your new applications. It\u2019s built with Tailwind CSS, AlpineJS and Blade Components and includes features like login, registration, profile management, two-factor auth, session management, API tokens, and teams. <\/p>\r\n\r\n<p>In this episode, we take a look at all of these features from a user\u2019s point of view.\r\n<\/p>",
+                "excerpt": "\r\nLaravel Jetstream is a beautifully designed application scaffolding tool that provides a great starting point for your...",
+                "source_code": "\/\/github.com\/laracasts\/lc-jetstream-example",
+                "position": 2,
+                "dateSegments": {
+                    "published": "January 6, 2021",
+                    "publishedAlt": "Jan 6th, 2021",
+                    "publishedDiff": "5 months ago",
+                    "whenAvailableForHumans": "5 months"
+                },
+                "whenAvailableDate": "5 months",
+                "lengthForHumans": "10:51",
+                "isNew": false,
+                "isScheduled": false,
+                "path": "\/episodes\/1891",
+                "series": {
+                    "title": "Laravel Authentication (Breeze, Jetstream, Fortify)",
+                    "taxonomy": {
+                        "name": "Frameworks",
+                        "path": "https:\/\/laracasts.com\/browse\/frameworks"
+                    },
+                    "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/laravel-authentication.png",
+                    "path": "\/series\/laravel-authentication-options"
+                },
+                "viewingStatus": {
+                    "scheduled": false,
+                    "watchable": true,
+                    "requiresReactivation": false,
+                    "requiresBillingDetails": false,
+                    "isFavorited": false,
+                    "isCompleted": false,
+                    "isWatchingLater": false
+                },
+                "download": "\/\/player.vimeo.com\/external\/496960094.hd.mp4?s=2c2b7597057c16a4b5691a412cc6f9ca8146d951&profile_id=175"
+            }
+        },
+        "progress": {
+            "episodeCount": 20,
+            "completionPercentage": "0",
+            "lastEpisodePositionCompleted": null
+        },
+        "lesson": {
+            "id": 1890,
+            "chapter": 1,
+            "type": "episode",
+            "title": "Breeze Overview and Usage",
+            "body": "<p>Laravel Breeze is a minimal and simple starting point for your authentication scaffolding in Laravel. It\u2019s the successor to the <code>laravel\/ui<\/code> package and is built using Tailwind CSS, AlpineJS and Blade Components. It publishes everything needed for auth into your project folder, which means it\u2019s easily customizable - and even includes tests.<\/p>",
+            "excerpt": "Laravel Breeze is a minimal and simple starting point for your authentication scaffolding in Laravel. It\u2019s the...",
+            "source_code": null,
+            "position": 1,
+            "dateSegments": {
+                "published": "January 4, 2021",
+                "publishedAlt": "Jan 4th, 2021",
+                "publishedDiff": "5 months ago",
+                "whenAvailableForHumans": "5 months"
+            },
+            "whenAvailableDate": "5 months",
+            "lengthForHumans": "7:28",
+            "isNew": false,
+            "isScheduled": false,
+            "path": "\/episodes\/1890",
+            "author": {
+                "id": 2071,
+                "username": "drehimself",
+                "avatar": "\/\/unavatar.now.sh\/github\/drehimself?fallback=https:\/\/laracasts.s3.amazonaws.com\/avatars\/andre-madarang.jpg",
+                "reported": null,
+                "profile": {
+                    "github": "drehimself",
+                    "twitter": "drehimself",
+                    "full_name": "Andre Madarang",
+                    "website": "http:\/\/andremadarang.com",
+                    "bio": "Greetings! I&#039;m Andre, a full-stack web developer and Laracasts instructor. My other hobbies include playing guitar, videography and gaming."
+                },
+                "dateSegments": {
+                    "created_diff": "7 years ago"
+                }
+            },
+            "viewingStatus": {
+                "scheduled": false,
+                "watchable": true,
+                "requiresReactivation": false,
+                "requiresBillingDetails": false,
+                "isFavorited": false,
+                "isCompleted": false,
+                "isWatchingLater": false
+            },
+            "download": "\/\/player.vimeo.com\/external\/496910420.hd.mp4?s=27bf5dca122a5491fe677c303e6f3a5a0643aff5&profile_id=175"
+        },
+        "downloadLink": "https:\/\/laracasts.com\/downloads\/eyJpdiI6ImhtT0RqZ1g1OWZ4dHFGWjZCV0w1cGc9PSIsInZhbHVlIjoiTDN6bncyZkh3b1gwcmlUV0l4Y3FHZz09IiwibWFjIjoiNWU2MTkxZTY5MjA1NmM5NWQyNGNlYzNmNDg5ZDZjNTkyNDU4ZjJiMzE1OTVjMWY3YTQ1MmY4YWZjYTJmY2IwNyJ9",
+        "leaderboardIds": [
+            6939,
+            8459,
+            6962,
+            43963,
+            1227,
+            2758,
+            31132,
+            26543,
+            13270,
+            21880
+        ],
+        "comments": {
+            "data": [
+                {
+                    "id": 10513,
+                    "video_id": 1890,
+                    "parent_id": null,
+                    "body": "<p>Using Alpine js only for dropdown? nah...\ngreat tuts thanks<\/p>\n",
+                    "strippedBody": "Using Alpine js only for dropdown? nah...\ngreat tuts thanks\n",
+                    "bodyInMarkdown": "Using Alpine js only for dropdown? nah...\ngreat tuts thanks",
+                    "path": "\/comments\/10513",
+                    "relativePublishDate": "5 months ago",
+                    "edited": true,
+                    "user": {
+                        "id": 40831,
+                        "username": "azimidev",
+                        "avatar": "\/\/unavatar.now.sh\/github\/hassanazimi?fallback=https:\/\/s3.amazonaws.com\/laracasts\/images\/forum\/avatars\/default-avatar-9.png",
+                        "experience": {
+                            "award_count": "1",
+                            "level": 44,
+                            "points": "219,450",
+                            "pointsUntilNextLevel": "550"
+                        },
+                        "achievements": [
+                            {
+                                "id": 9,
+                                "name": "Laracasts Master",
+                                "description": "Earned once 1000 Laracasts lessons have been completed.",
+                                "level": "advanced",
+                                "icon": "laracasts-master.svg"
+                            },
+                            {
+                                "id": 11,
+                                "name": "Laracasts Veteran",
+                                "description": "Earned once your experience points passes 100,000.",
+                                "level": "intermediate",
+                                "icon": "laracasts-veteran.svg"
+                            },
+                            {
+                                "id": 14,
+                                "name": "Top 50",
+                                "description": "Earned once your experience points ranks in the top 50 of all Laracasts users.",
+                                "level": "advanced",
+                                "icon": "top50.svg"
+                            }
+                        ],
+                        "reported": null,
+                        "profile": {
+                            "github": "hassanazimi",
+                            "twitter": "azimidev",
+                            "full_name": null,
+                            "website": "https:\/\/azimi.dev",
+                            "bio": null
+                        },
+                        "dateSegments": {
+                            "created_diff": "5 years ago"
+                        }
+                    },
+                    "replies": [],
+                    "likes": [
+                        "ubk77",
+                        "desmi478",
+                        "oriceon",
+                        "MatF86",
+                        "DevBodin",
+                        "alimjan"
+                    ],
+                    "links": {
+                        "like": "\/comments\/10513\/likes"
+                    }
+                },
+                {
+                    "id": 10524,
+                    "video_id": 1890,
+                    "parent_id": null,
+                    "body": "<p>great one thanks.<\/p>\n",
+                    "strippedBody": "great one thanks.\n",
+                    "bodyInMarkdown": "great one thanks.",
+                    "path": "\/comments\/10524",
+                    "relativePublishDate": "5 months ago",
+                    "edited": false,
+                    "user": {
+                        "id": 73871,
+                        "username": "manish049",
+                        "avatar": "\/\/unavatar.now.sh\/github\/cmanish049?fallback=https:\/\/s3.amazonaws.com\/laracasts\/images\/forum\/avatars\/default-avatar-26.png",
+                        "experience": {
+                            "award_count": "0",
+                            "level": 12,
+                            "points": "59,240",
+                            "pointsUntilNextLevel": "760"
+                        },
+                        "achievements": [],
+                        "reported": null,
+                        "profile": {
+                            "github": "cmanish049",
+                            "twitter": "@cmanish049",
+                            "full_name": null,
+                            "website": "https:\/\/github.com\/cmanish049",
+                            "bio": null
+                        },
+                        "dateSegments": {
+                            "created_diff": "4 years ago"
+                        }
+                    },
+                    "replies": [],
+                    "likes": [],
+                    "links": {
+                        "like": "\/comments\/10524\/likes"
+                    }
+                },
+                {
+                    "id": 10532,
+                    "video_id": 1890,
+                    "parent_id": null,
+                    "body": "<p>A new series! Best wishes for the new year, Andre!<\/p>\n",
+                    "strippedBody": "A new series! Best wishes for the new year, Andre!\n",
+                    "bodyInMarkdown": "A new series! Best wishes for the new year, Andre!",
+                    "path": "\/comments\/10532",
+                    "relativePublishDate": "5 months ago",
+                    "edited": false,
+                    "user": {
+                        "id": 33358,
+                        "username": "gsmofgsm",
+                        "avatar": "\/\/www.gravatar.com\/avatar\/ecfc1184391161f189946c7a5a275681?s=100&d=https%3A%2F%2Fs3.amazonaws.com%2Flaracasts%2Fimages%2Fforum%2Favatars%2Fdefault-avatar-13.png",
+                        "experience": {
+                            "award_count": "0",
+                            "level": 28,
+                            "points": "136,760",
+                            "pointsUntilNextLevel": "3,240"
+                        },
+                        "achievements": [
+                            {
+                                "id": 9,
+                                "name": "Laracasts Master",
+                                "description": "Earned once 1000 Laracasts lessons have been completed.",
+                                "level": "advanced",
+                                "icon": "laracasts-master.svg"
+                            },
+                            {
+                                "id": 11,
+                                "name": "Laracasts Veteran",
+                                "description": "Earned once your experience points passes 100,000.",
+                                "level": "intermediate",
+                                "icon": "laracasts-veteran.svg"
+                            },
+                            {
+                                "id": 16,
+                                "name": "Ten Thousand Strong",
+                                "description": "Earned once your experience points hits 10,000.",
+                                "level": "intermediate",
+                                "icon": "ten-thousand-strong.svg"
+                            }
+                        ],
+                        "reported": null,
+                        "profile": {
+                            "github": "",
+                            "twitter": "",
+                            "full_name": null,
+                            "website": "",
+                            "bio": null
+                        },
+                        "dateSegments": {
+                            "created_diff": "5 years ago"
+                        }
+                    },
+                    "replies": [],
+                    "likes": [],
+                    "links": {
+                        "like": "\/comments\/10532\/likes"
+                    }
+                },
+                {
+                    "id": 10977,
+                    "video_id": 1890,
+                    "parent_id": null,
+                    "body": "<p>laravel is trying to get people to use a front-end that is part of laravel community contribution like livewire, alpine<\/p>\n",
+                    "strippedBody": "laravel is trying to get people to use a front-end that is part of laravel community contribution like livewire, alpine\n",
+                    "bodyInMarkdown": "laravel is trying to get people to use a front-end that is part of laravel community contribution like livewire, alpine",
+                    "path": "\/comments\/10977",
+                    "relativePublishDate": "4 months ago",
+                    "edited": false,
+                    "user": {
+                        "id": 196709,
+                        "username": "ebaba",
+                        "avatar": "\/\/www.gravatar.com\/avatar\/6a09c6d1c2f32729c7224bd29135d482?s=100&d=https%3A%2F%2Fs3.amazonaws.com%2Flaracasts%2Fimages%2Fforum%2Favatars%2Fdefault-avatar-8.png",
+                        "experience": {
+                            "award_count": "0",
+                            "level": 4,
+                            "points": "16,540",
+                            "pointsUntilNextLevel": "3,460"
+                        },
+                        "achievements": [],
+                        "reported": null,
+                        "profile": {
+                            "github": "",
+                            "twitter": "",
+                            "full_name": null,
+                            "website": "",
+                            "bio": null
+                        },
+                        "dateSegments": {
+                            "created_diff": "6 months ago"
+                        }
+                    },
+                    "replies": [],
+                    "likes": [],
+                    "links": {
+                        "like": "\/comments\/10977\/likes"
+                    }
+                },
+                {
+                    "id": 11315,
+                    "video_id": 1890,
+                    "parent_id": null,
+                    "body": "<p>Are you planning to update this with Inertia.js integration? I&#039;m trying to make sense of the overall structure but being a beginner, I&#039;m somewhat overwhelmed with the Breeze\/Vue\/Inertia stacks.<\/p>\n<p>The Laravel installation page recommends Breeze as a starting point rather than Jetstream but it seems like so little is covered here. I plan to make use of the Laravel authentication starter pack and extend the stacks to all of my app.<\/p>\n<p>I did watch your personal YT tutorial on inertia\/vue\/laravel which has cleared out quite a chunk of my confusion. It would be better if there&#039;s a beginner course here for the &#039;starter packs&#039; offered in Laravel docs.<\/p>\n",
+                    "strippedBody": "Are you planning to update this with Inertia.js integration? I&#039;m trying to make sense of the overall structure but being a beginner, I&#039;m somewhat overwhelmed with the Breeze\/Vue\/Inertia stacks.\nThe Laravel installation page recommends Breeze as a starting point rather than Jetstream but it seems like so little is covered here. I plan to make use of the Laravel authentication starter pack and extend the stacks to all of my app.\nI did watch your personal YT tutorial on inertia\/vue\/laravel which has cleared out quite a chunk of my confusion. It would be better if there&#039;s a beginner course here for the &#039;starter packs&#039; offered in Laravel docs.\n",
+                    "bodyInMarkdown": "Are you planning to update this with Inertia.js integration? I&#039;m trying to make sense of the overall structure but being a beginner, I&#039;m somewhat overwhelmed with the Breeze\/Vue\/Inertia stacks.\n\nThe Laravel installation page recommends Breeze as a starting point rather than Jetstream but it seems like so little is covered here. I plan to make use of the Laravel authentication starter pack and extend the stacks to all of my app.\n\nI did watch your personal YT tutorial on inertia\/vue\/laravel which has cleared out quite a chunk of my confusion. It would be better if there&#039;s a beginner course here for the &#039;starter packs&#039; offered in Laravel docs.",
+                    "path": "\/comments\/11315",
+                    "relativePublishDate": "3 months ago",
+                    "edited": false,
+                    "user": {
+                        "id": 180460,
+                        "username": "wanahmadfiras",
+                        "avatar": "\/\/www.gravatar.com\/avatar\/00465521deea4df1beccf3f06bf96f4d?s=100&d=https%3A%2F%2Fs3.amazonaws.com%2Flaracasts%2Fimages%2Fforum%2Favatars%2Fdefault-avatar-25.png",
+                        "experience": {
+                            "award_count": "0",
+                            "level": 7,
+                            "points": "31,420",
+                            "pointsUntilNextLevel": "3,580"
+                        },
+                        "achievements": [],
+                        "reported": null,
+                        "profile": {
+                            "github": "",
+                            "twitter": "",
+                            "full_name": null,
+                            "website": "",
+                            "bio": null
+                        },
+                        "dateSegments": {
+                            "created_diff": "1 year ago"
+                        }
+                    },
+                    "replies": [
+                        {
+                            "id": 11328,
+                            "video_id": 1890,
+                            "parent_id": 11315,
+                            "body": "<p>I don&#039;t have plans to do an Inertia version for Breeze\/Jetstream but there should eventually be a general Inertia.js series here on Laracasts.<\/p>\n<p>This series is exactly what you&#039;re describing. An overview of the &quot;starter packs&quot; for auth in Laravel. If you&#039;re still confused about some of the topics, maybe go back and re-visit some of those concepts. For example, a lot of people are not familiar with blade components and their syntax (there&#039;s a series on them here on Laracasts).<\/p>\n<p>It might be Inertia that you&#039;re still not too familiar with. While you wait for the Inertia series, definitely check out their excellent documentation but more importantly the demo &quot;Ping CRM&quot; app they have. Install it locally then take a look at the code and Vue components they have to piece it all together.<\/p>\n",
+                            "strippedBody": "I don&#039;t have plans to do an Inertia version for Breeze\/Jetstream but there should eventually be a general Inertia.js series here on Laracasts.\nThis series is exactly what you&#039;re describing. An overview of the &quot;starter packs&quot; for auth in Laravel. If you&#039;re still confused about some of the topics, maybe go back and re-visit some of those concepts. For example, a lot of people are not familiar with blade components and their syntax (there&#039;s a series on them here on Laracasts).\nIt might be Inertia that you&#039;re still not too familiar with. While you wait for the Inertia series, definitely check out their excellent documentation but more importantly the demo &quot;Ping CRM&quot; app they have. Install it locally then take a look at the code and Vue components they have to piece it all together.\n",
+                            "bodyInMarkdown": "I don&#039;t have plans to do an Inertia version for Breeze\/Jetstream but there should eventually be a general Inertia.js series here on Laracasts. \n\nThis series is exactly what you&#039;re describing. An overview of the \"starter packs\" for auth in Laravel. If you&#039;re still confused about some of the topics, maybe go back and re-visit some of those concepts. For example, a lot of people are not familiar with blade components and their syntax (there&#039;s a series on them here on Laracasts).\n\nIt might be Inertia that you&#039;re still not too familiar with. While you wait for the Inertia series, definitely check out their excellent documentation but more importantly the demo \"Ping CRM\" app they have. Install it locally then take a look at the code and Vue components they have to piece it all together.",
+                            "path": "\/comments\/11328",
+                            "relativePublishDate": "3 months ago",
+                            "edited": false,
+                            "user": {
+                                "id": 2071,
+                                "username": "drehimself",
+                                "avatar": "\/\/unavatar.now.sh\/github\/drehimself?fallback=https:\/\/laracasts.s3.amazonaws.com\/avatars\/andre-madarang.jpg",
+                                "experience": {
+                                    "award_count": "13",
+                                    "level": 20,
+                                    "points": "97,730",
+                                    "pointsUntilNextLevel": "2,270"
+                                },
+                                "achievements": [
+                                    {
+                                        "id": 9,
+                                        "name": "Laracasts Master",
+                                        "description": "Earned once 1000 Laracasts lessons have been completed.",
+                                        "level": "advanced",
+                                        "icon": "laracasts-master.svg"
+                                    },
+                                    {
+                                        "id": 16,
+                                        "name": "Ten Thousand Strong",
+                                        "description": "Earned once your experience points hits 10,000.",
+                                        "level": "intermediate",
+                                        "icon": "ten-thousand-strong.svg"
+                                    }
+                                ],
+                                "reported": null,
+                                "profile": {
+                                    "github": "drehimself",
+                                    "twitter": "drehimself",
+                                    "full_name": "Andre Madarang",
+                                    "website": "http:\/\/andremadarang.com",
+                                    "bio": "Greetings! I&#039;m Andre, a full-stack web developer and Laracasts instructor. My other hobbies include playing guitar, videography and gaming."
+                                },
+                                "dateSegments": {
+                                    "created_diff": "7 years ago"
+                                }
+                            },
+                            "likes": [
+                                "trying_to_be_better",
+                                "RayS"
+                            ],
+                            "links": {
+                                "like": "\/comments\/11328\/likes"
+                            }
+                        }
+                    ],
+                    "likes": [],
+                    "links": {
+                        "like": "\/comments\/11315\/likes"
+                    }
+                }
+            ],
+            "links": {
+                "first": "https:\/\/laracasts.com\/series\/laravel-authentication-options\/episodes\/1?page=1",
+                "last": "https:\/\/laracasts.com\/series\/laravel-authentication-options\/episodes\/1?page=1",
+                "prev": null,
+                "next": null
+            },
+            "meta": {
+                "current_page": 1,
+                "from": 1,
+                "last_page": 1,
+                "links": [
+                    {
+                        "url": null,
+                        "label": "&laquo; Previous",
+                        "active": false
+                    },
+                    {
+                        "url": "https:\/\/laracasts.com\/series\/laravel-authentication-options\/episodes\/1?page=1",
+                        "label": "1",
+                        "active": true
+                    },
+                    {
+                        "url": null,
+                        "label": "More &raquo;",
+                        "active": false
+                    }
+                ],
+                "path": "https:\/\/laracasts.com\/series\/laravel-authentication-options\/episodes\/1",
+                "per_page": 15,
+                "to": 5,
+                "total": 5
+            },
+            "mentionableUsernames": [
+                "azimidev",
+                "manish049",
+                "gsmofgsm",
+                "ebaba",
+                "wanahmadfiras",
+                "drehimself"
+            ],
+            "newestCommentId": 11328
+        },
+        "position": "1"
+    },
+    "url": "\/series\/laravel-authentication-options\/episodes\/1",
+    "version": "d121e9faeca6e2b3cb7d27d32e3a5216"
+}

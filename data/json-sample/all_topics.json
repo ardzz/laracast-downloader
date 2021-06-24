@@ -1,0 +1,326 @@
+[
+    {
+        "name": "AlpineJS",
+        "episode_count": 57,
+        "series_count": 5,
+        "path": "https:\/\/laracasts.com\/topics\/alpine-js",
+        "theme": "five",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/alpine-logo.svg",
+        "slug": "alpine-js"
+    },
+    {
+        "name": "Authentication",
+        "episode_count": 30,
+        "series_count": 3,
+        "path": "https:\/\/laracasts.com\/topics\/authentication",
+        "theme": "three",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/authentication-logo.svg",
+        "slug": "authentication"
+    },
+    {
+        "name": "Billing",
+        "episode_count": 8,
+        "series_count": 1,
+        "path": "https:\/\/laracasts.com\/topics\/billing",
+        "theme": "one",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/billing-logo.svg",
+        "slug": "billing"
+    },
+    {
+        "name": "Blade",
+        "episode_count": 20,
+        "series_count": 2,
+        "path": "https:\/\/laracasts.com\/topics\/blade",
+        "theme": "two",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/blade-logo.svg",
+        "slug": "blade"
+    },
+    {
+        "name": "Clean Code",
+        "episode_count": 75,
+        "series_count": 11,
+        "path": "https:\/\/laracasts.com\/topics\/clean-code",
+        "theme": "default",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/clean-code-logo.svg",
+        "slug": "clean-code"
+    },
+    {
+        "name": "CSS",
+        "episode_count": 52,
+        "series_count": 7,
+        "path": "https:\/\/laracasts.com\/topics\/css",
+        "theme": "seven",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/css-logo.svg",
+        "slug": "css"
+    },
+    {
+        "name": "Cypress",
+        "episode_count": 14,
+        "series_count": 2,
+        "path": "https:\/\/laracasts.com\/topics\/cypress",
+        "theme": "two",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/cypress-logo.svg",
+        "slug": "cypress"
+    },
+    {
+        "name": "Deployment",
+        "episode_count": 39,
+        "series_count": 3,
+        "path": "https:\/\/laracasts.com\/topics\/deployment",
+        "theme": "three",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/deployment-logo.svg",
+        "slug": "deployment"
+    },
+    {
+        "name": "Envoyer",
+        "episode_count": 10,
+        "series_count": 1,
+        "path": "https:\/\/laracasts.com\/topics\/envoyer",
+        "theme": "one",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/envoyer-logo.svg",
+        "slug": "envoyer"
+    },
+    {
+        "name": "Git",
+        "episode_count": 35,
+        "series_count": 2,
+        "path": "https:\/\/laracasts.com\/topics\/git",
+        "theme": "two",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/git-logo.svg",
+        "slug": "git"
+    },
+    {
+        "name": "Inertia",
+        "episode_count": 11,
+        "series_count": 1,
+        "path": "https:\/\/laracasts.com\/topics\/inertia",
+        "theme": "one",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/inertia-logo.svg",
+        "slug": "inertia"
+    },
+    {
+        "name": "JavaScript",
+        "episode_count": 166,
+        "series_count": 15,
+        "path": "https:\/\/laracasts.com\/topics\/javascript",
+        "theme": "default",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/js-logo.svg",
+        "slug": "javascript"
+    },
+    {
+        "name": "Laravel",
+        "episode_count": 657,
+        "series_count": 54,
+        "path": "https:\/\/laracasts.com\/topics\/laravel",
+        "theme": "default",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/laravel-logo.svg",
+        "slug": "laravel"
+    },
+    {
+        "name": "Laravel Forge",
+        "episode_count": 29,
+        "series_count": 2,
+        "path": "https:\/\/laracasts.com\/topics\/laravel-forge",
+        "theme": "two",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/laravel-forge-logo.svg",
+        "slug": "laravel-forge"
+    },
+    {
+        "name": "Laravel Livewire",
+        "episode_count": 104,
+        "series_count": 5,
+        "path": "https:\/\/laracasts.com\/topics\/laravel-livewire",
+        "theme": "five",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/livewire-logo.svg",
+        "slug": "laravel-livewire"
+    },
+    {
+        "name": "Laravel Mix",
+        "episode_count": 11,
+        "series_count": 1,
+        "path": "https:\/\/laracasts.com\/topics\/laravel-mix",
+        "theme": "one",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/laravel-mix-logo.svg",
+        "slug": "laravel-mix"
+    },
+    {
+        "name": "Laravel Packages",
+        "episode_count": 70,
+        "series_count": 9,
+        "path": "https:\/\/laracasts.com\/topics\/laravel-packages",
+        "theme": "nine",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/laravel-logo.svg",
+        "slug": "laravel-packages"
+    },
+    {
+        "name": "MySQL",
+        "episode_count": 17,
+        "series_count": 1,
+        "path": "https:\/\/laracasts.com\/topics\/mysql",
+        "theme": "one",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/mysql-logo.svg",
+        "slug": "mysql"
+    },
+    {
+        "name": "Nova",
+        "episode_count": 15,
+        "series_count": 1,
+        "path": "https:\/\/laracasts.com\/topics\/nova",
+        "theme": "one",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/nova-logo.svg",
+        "slug": "nova"
+    },
+    {
+        "name": "OOP",
+        "episode_count": 27,
+        "series_count": 4,
+        "path": "https:\/\/laracasts.com\/topics\/object-oriented-programming",
+        "theme": "four",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/OOP-logo.svg",
+        "slug": "object-oriented-programming"
+    },
+    {
+        "name": "PHP ",
+        "episode_count": 254,
+        "series_count": 25,
+        "path": "https:\/\/laracasts.com\/topics\/php",
+        "theme": "default",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/php-logo.svg",
+        "slug": "php"
+    },
+    {
+        "name": "PHPStorm",
+        "episode_count": 27,
+        "series_count": 1,
+        "path": "https:\/\/laracasts.com\/topics\/phpstorm",
+        "theme": "one",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/phpstorm-logo.svg",
+        "slug": "phpstorm"
+    },
+    {
+        "name": "PHPUnit",
+        "episode_count": 107,
+        "series_count": 7,
+        "path": "https:\/\/laracasts.com\/topics\/phpunit",
+        "theme": "seven",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/phpunit-logo.svg",
+        "slug": "phpunit"
+    },
+    {
+        "name": "Queues",
+        "episode_count": 11,
+        "series_count": 1,
+        "path": "https:\/\/laracasts.com\/topics\/queues",
+        "theme": "one",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/queues-logo.svg",
+        "slug": "queues"
+    },
+    {
+        "name": "React",
+        "episode_count": 10,
+        "series_count": 1,
+        "path": "https:\/\/laracasts.com\/topics\/react",
+        "theme": "one",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/react-logo.svg",
+        "slug": "react"
+    },
+    {
+        "name": "Redis",
+        "episode_count": 10,
+        "series_count": 2,
+        "path": "https:\/\/laracasts.com\/topics\/redis",
+        "theme": "two",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/redis-logo.svg",
+        "slug": "redis"
+    },
+    {
+        "name": "SQL",
+        "episode_count": 17,
+        "series_count": 1,
+        "path": "https:\/\/laracasts.com\/topics\/sql",
+        "theme": "one",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/sql-logo.svg",
+        "slug": "sql"
+    },
+    {
+        "name": "Sublime Text",
+        "episode_count": 22,
+        "series_count": 2,
+        "path": "https:\/\/laracasts.com\/topics\/sublime-text",
+        "theme": "two",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/sublime-logo.svg",
+        "slug": "sublime-text"
+    },
+    {
+        "name": "Symfony",
+        "episode_count": 4,
+        "series_count": 1,
+        "path": "https:\/\/laracasts.com\/topics\/symfony",
+        "theme": "one",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/symphony-logo.svg",
+        "slug": "symfony"
+    },
+    {
+        "name": "Tailwind",
+        "episode_count": 90,
+        "series_count": 5,
+        "path": "https:\/\/laracasts.com\/topics\/tailwind",
+        "theme": "five",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/tailwind-logo.svg",
+        "slug": "tailwind"
+    },
+    {
+        "name": "TypeScript",
+        "episode_count": 8,
+        "series_count": 1,
+        "path": "https:\/\/laracasts.com\/topics\/typescript",
+        "theme": "one",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/typescript-logo.svg",
+        "slug": "typescript"
+    },
+    {
+        "name": "Vim",
+        "episode_count": 22,
+        "series_count": 1,
+        "path": "https:\/\/laracasts.com\/topics\/vim",
+        "theme": "one",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/vim-logo.svg",
+        "slug": "vim"
+    },
+    {
+        "name": "Visual Studio Code",
+        "episode_count": 18,
+        "series_count": 1,
+        "path": "https:\/\/laracasts.com\/topics\/vs-code",
+        "theme": "one",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/visualstudio-logo.svg",
+        "slug": "vs-code"
+    },
+    {
+        "name": "Vue",
+        "episode_count": 90,
+        "series_count": 5,
+        "path": "https:\/\/laracasts.com\/topics\/vue",
+        "theme": "five",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/vue-logo.svg",
+        "slug": "vue"
+    },
+    {
+        "name": "Webpack",
+        "episode_count": 25,
+        "series_count": 2,
+        "path": "https:\/\/laracasts.com\/topics\/webpack",
+        "theme": "two",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/webpack-logo.svg",
+        "slug": "webpack"
+    },
+    {
+        "name": "Workshops",
+        "episode_count": 226,
+        "series_count": 17,
+        "path": "https:\/\/laracasts.com\/topics\/workshops",
+        "theme": "default",
+        "thumbnail": "https:\/\/laracasts.com\/images\/topics\/icons\/workshops-logo.svg",
+        "slug": "workshops"
+    }
+]

@@ -1,0 +1,517 @@
+{
+    "component": "Series\/Show",
+    "props": {
+        "errors": [],
+        "auth": {
+            "signedIn": true,
+            "user": {
+                "id": 213140,
+                "username": "giseller403",
+                "avatar": "\/\/www.gravatar.com\/avatar\/5e15f7aa5701873bb1178669dae4255e?s=100&d=https%3A%2F%2Fs3.amazonaws.com%2Flaracasts%2Fimages%2Fforum%2Favatars%2Fdefault-avatar-21.png",
+                "reported": null,
+                "email": "gassudah@yandex.com",
+                "profile": {
+                    "full_name": null,
+                    "bio": null,
+                    "twitter": "",
+                    "github": "",
+                    "website": "",
+                    "employment": "",
+                    "job_title": "Software Engineer",
+                    "location": "",
+                    "flag": null,
+                    "available_for_hire": 0
+                },
+                "settings": {
+                    "show_forum_excerpts": true,
+                    "float_video_player": true,
+                    "show_profile": true
+                },
+                "trusted": true,
+                "plan": {
+                    "name": "Monthly",
+                    "type": "monthly-15",
+                    "icon": "monthly"
+                },
+                "show_profile": null,
+                "last_four": "2388",
+                "billing_details": null,
+                "needs_new_card_number": false,
+                "subscription_ends_at": null,
+                "pause_until": null,
+                "invoices_paused": null,
+                "dateSegments": {
+                    "created_diff": "1 hour ago",
+                    "subscription_ends_at_for_humans": null,
+                    "pause_until_for_humans": null
+                },
+                "subscribed": true,
+                "canceled": false,
+                "expired": false,
+                "active": true,
+                "billable": true,
+                "streaking": false
+            }
+        },
+        "flash": {
+            "success": null,
+            "error": null,
+            "overlay": null
+        },
+        "announcement": false,
+        "recaptchaKey": "6LcdNFYUAAAAAIDK9F6CBZ660yOrxEyUYme687b2",
+        "series": {
+            "id": 38,
+            "title": "Design Patterns in PHP",
+            "body": "<p>A design pattern is a common solution to a common problem. Nothing more, nothing less. And, while some of these approaches might seem foreign or overwhelming to you, the important thing to remember is that, as a developer, you are in charge. That means you decide when a pattern is appropriate, and when it&#039;s completely unnecessary. That&#039;s the key.<\/p>",
+            "path": "\/series\/design-patterns-in-php",
+            "strippedBody": "A design pattern is a common solution to a common problem. Nothing more, nothing less. And, while some of these approaches might seem foreign or overwhelming to you, the important thing to remember is that, as a developer, you are in charge. That means you decide when a pattern is appropriate, and when it&#039;s completely unnecessary. That&#039;s the key.",
+            "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/design-patterns-in-php.png",
+            "large_thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/social-cards\/design-patterns-in-php.png",
+            "svgThumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/svg\/design-patterns-in-php.svg",
+            "slug": "design-patterns-in-php",
+            "episodeCount": 8,
+            "difficultyLevel": "Advanced",
+            "version": null,
+            "version_notes": null,
+            "archived": 0,
+            "replacedBy": null,
+            "runTime": "1h 43m",
+            "taxonomy": {
+                "name": "Techniques",
+                "path": "https:\/\/laracasts.com\/browse\/techniques"
+            },
+            "author": {
+                "id": 1770,
+                "username": "JeffreyWay",
+                "avatar": "\/\/unavatar.now.sh\/github\/JeffreyWay?fallback=https:\/\/laracasts.s3.amazonaws.com\/avatars\/jeffrey-avatar.jpg",
+                "reported": null,
+                "profile": {
+                    "github": "JeffreyWay",
+                    "twitter": "jeffrey_way",
+                    "full_name": "Jeffrey Way",
+                    "website": "https:\/\/laracasts.com",
+                    "bio": "Hi, I&#039;m Jeffrey. I&#039;m the creator of Laracasts and spend most of my days building the site and thinking of new ways to teach confusing concepts. I live in Orlando, Florida with my wife and two kids."
+                },
+                "dateSegments": {
+                    "created_diff": "7 years ago"
+                }
+            },
+            "hasChapters": false,
+            "chapters": [
+                {
+                    "heading": null,
+                    "number": 1,
+                    "count": 8,
+                    "completed": false,
+                    "episodes": [
+                        {
+                            "id": 165,
+                            "chapter": 1,
+                            "type": "episode",
+                            "title": "The Decorator Pattern",
+                            "body": "<p>A decorator allows us to dynamically extend the behavior of a particular object at runtime, without needing to resort to unnecessary inheritance. Let me give you a demonstration.<\/p>",
+                            "excerpt": "A decorator allows us to dynamically extend the behavior of a particular object at runtime, without needing...",
+                            "source_code": null,
+                            "position": 1,
+                            "dateSegments": {
+                                "published": "June 18, 2014",
+                                "publishedAlt": "Jun 18th, 2014",
+                                "publishedDiff": "7 years ago",
+                                "whenAvailableForHumans": "7 years"
+                            },
+                            "whenAvailableDate": "7 years",
+                            "lengthForHumans": "10:32",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/165",
+                            "series": {
+                                "title": "Design Patterns in PHP",
+                                "taxonomy": {
+                                    "name": "Techniques",
+                                    "path": "https:\/\/laracasts.com\/browse\/techniques"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/design-patterns-in-php.png",
+                                "path": "\/series\/design-patterns-in-php"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/98576673.hd.mp4?s=3ef251cc4ad95e1c9a78a23f82f90f32"
+                        },
+                        {
+                            "id": 184,
+                            "chapter": 1,
+                            "type": "episode",
+                            "title": "Gettin&#039; Jiggy With Adapters",
+                            "body": "<p>An adapter is one of the easier design patterns to learn. The reason why is because you use them in the real world all the time! In this lesson, let&#039;s review a handful of examples to figure out how it all works.<\/p>\n\n<p>View the source for this lesson <a href=\"https:\/\/github.com\/laracasts\/Getting-Jiggy-With-Adapters\">on GitHub<\/a>.<\/p>",
+                            "excerpt": "An adapter is one of the easier design patterns to learn. The reason why is because you...",
+                            "source_code": null,
+                            "position": 2,
+                            "dateSegments": {
+                                "published": "September 18, 2014",
+                                "publishedAlt": "Sep 18th, 2014",
+                                "publishedDiff": "6 years ago",
+                                "whenAvailableForHumans": "6 years"
+                            },
+                            "whenAvailableDate": "6 years",
+                            "lengthForHumans": "11:08",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/184",
+                            "series": {
+                                "title": "Design Patterns in PHP",
+                                "taxonomy": {
+                                    "name": "Techniques",
+                                    "path": "https:\/\/laracasts.com\/browse\/techniques"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/design-patterns-in-php.png",
+                                "path": "\/series\/design-patterns-in-php"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/106528196.hd.mp4?s=650b18a47514fd28673a41d77082096b"
+                        },
+                        {
+                            "id": 187,
+                            "chapter": 1,
+                            "type": "episode",
+                            "title": "The Template Method Pattern",
+                            "body": "<p>I bet you&#039;ve used the template method design pattern on multiple occassions without even realizing it! This is an easy one to understand. Let&#039;s dig in.<\/p>",
+                            "excerpt": "I bet you&#039;ve used the template method design pattern on multiple occassions without even realizing it! This...",
+                            "source_code": null,
+                            "position": 3,
+                            "dateSegments": {
+                                "published": "October 20, 2014",
+                                "publishedAlt": "Oct 20th, 2014",
+                                "publishedDiff": "6 years ago",
+                                "whenAvailableForHumans": "6 years"
+                            },
+                            "whenAvailableDate": "6 years",
+                            "lengthForHumans": "13:16",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/187",
+                            "series": {
+                                "title": "Design Patterns in PHP",
+                                "taxonomy": {
+                                    "name": "Techniques",
+                                    "path": "https:\/\/laracasts.com\/browse\/techniques"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/design-patterns-in-php.png",
+                                "path": "\/series\/design-patterns-in-php"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/109475449.hd.mp4?s=92f9e5a08c0f75cdc1ec0a2f698f4510"
+                        },
+                        {
+                            "id": 188,
+                            "chapter": 1,
+                            "type": "episode",
+                            "title": "Pick a Strategy",
+                            "body": "<p>Let&#039;s talk about the strategy design pattern and polymorphism. Like many patterns, you may find that you already use this one! You just didn&#039;t know that it had a name!<\/p>",
+                            "excerpt": "Let&#039;s talk about the strategy design pattern and polymorphism. Like many patterns, you may find that you...",
+                            "source_code": null,
+                            "position": 4,
+                            "dateSegments": {
+                                "published": "October 23, 2014",
+                                "publishedAlt": "Oct 23rd, 2014",
+                                "publishedDiff": "6 years ago",
+                                "whenAvailableForHumans": "6 years"
+                            },
+                            "whenAvailableDate": "6 years",
+                            "lengthForHumans": "10:04",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/188",
+                            "series": {
+                                "title": "Design Patterns in PHP",
+                                "taxonomy": {
+                                    "name": "Techniques",
+                                    "path": "https:\/\/laracasts.com\/browse\/techniques"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/design-patterns-in-php.png",
+                                "path": "\/series\/design-patterns-in-php"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/109833866.hd.mp4?s=9a830508a8ff32fd3ee14fe4882626c6"
+                        },
+                        {
+                            "id": 189,
+                            "chapter": 1,
+                            "type": "episode",
+                            "title": "The Chain of Responsibility",
+                            "body": "<p>The chain of responsibility pattern is definitely an interesting one. It literally allows us to chain any number of objects, where each has the option of either handling a particular request, or deferring to the next object in the cycle.<\/p>",
+                            "excerpt": "The chain of responsibility pattern is definitely an interesting one. It literally allows us to chain any...",
+                            "source_code": null,
+                            "position": 5,
+                            "dateSegments": {
+                                "published": "November 4, 2014",
+                                "publishedAlt": "Nov 4th, 2014",
+                                "publishedDiff": "6 years ago",
+                                "whenAvailableForHumans": "6 years"
+                            },
+                            "whenAvailableDate": "6 years",
+                            "lengthForHumans": "11:32",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/189",
+                            "series": {
+                                "title": "Design Patterns in PHP",
+                                "taxonomy": {
+                                    "name": "Techniques",
+                                    "path": "https:\/\/laracasts.com\/browse\/techniques"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/design-patterns-in-php.png",
+                                "path": "\/series\/design-patterns-in-php"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/110948381.hd.mp4?s=ac736bc39ece89611a2878004c676cf9"
+                        },
+                        {
+                            "id": 213,
+                            "chapter": 1,
+                            "type": "episode",
+                            "title": "The Specification Pattern in PHP",
+                            "body": "<p>Though certainly not for everything, you may find situations where the specification pattern can prove to be exactly what you need. In this lesson, we&#039;ll review the core concept, while using TDD and PHPUnit to drive our code.<\/p>",
+                            "excerpt": "Though certainly not for everything, you may find situations where the specification pattern can prove to be...",
+                            "source_code": null,
+                            "position": 6,
+                            "dateSegments": {
+                                "published": "August 10, 2015",
+                                "publishedAlt": "Aug 10th, 2015",
+                                "publishedDiff": "5 years ago",
+                                "whenAvailableForHumans": "5 years"
+                            },
+                            "whenAvailableDate": "5 years",
+                            "lengthForHumans": "19:08",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/213",
+                            "series": {
+                                "title": "Design Patterns in PHP",
+                                "taxonomy": {
+                                    "name": "Techniques",
+                                    "path": "https:\/\/laracasts.com\/browse\/techniques"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/design-patterns-in-php.png",
+                                "path": "\/series\/design-patterns-in-php"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/135900284.hd.mp4?s=3cca85a37223dc33f33c53032719b3fa&profile_id=119"
+                        },
+                        {
+                            "id": 214,
+                            "chapter": 1,
+                            "type": "episode",
+                            "title": "The Specification Pattern in PHP: Part 2",
+                            "body": "<p>In the <a href=\"https:\/\/laracasts.com\/lessons\/the-specification-pattern-in-php\">previous lesson<\/a> on the specification pattern, we reviewed the core fundamentals. However, we stopped just short of figuring out how to apply this concept to database queries. Let&#039;s figure that out, while, in the process, learning how to use (and test) Eloquent outside of Laravel.<\/p>\n\n<p>View the source for this two-part series <a href=\"https:\/\/github.com\/laracasts\/the-specification-pattern-in-php\">on GitHub<\/a>.<\/p>",
+                            "excerpt": "In the previous lesson on the specification pattern, we reviewed the core fundamentals. However, we stopped just...",
+                            "source_code": null,
+                            "position": 7,
+                            "dateSegments": {
+                                "published": "August 14, 2015",
+                                "publishedAlt": "Aug 14th, 2015",
+                                "publishedDiff": "5 years ago",
+                                "whenAvailableForHumans": "5 years"
+                            },
+                            "whenAvailableDate": "5 years",
+                            "lengthForHumans": "10:16",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/214",
+                            "series": {
+                                "title": "Design Patterns in PHP",
+                                "taxonomy": {
+                                    "name": "Techniques",
+                                    "path": "https:\/\/laracasts.com\/browse\/techniques"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/design-patterns-in-php.png",
+                                "path": "\/series\/design-patterns-in-php"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/136343610.hd.mp4?s=aada5a9e260d50866060add7462fcc5f&profile_id=119"
+                        },
+                        {
+                            "id": 186,
+                            "chapter": 1,
+                            "type": "episode",
+                            "title": "Observe This, Fool",
+                            "body": "<p>The observer pattern is easily one of the most popular patterns in the bunch. And, luckily, it&#039;s one of the easier ones to comprehend. Let&#039;s review the essentials, while ultimately translating this new knowledge over to Laravel&#039;s implementation (in version 5).<\/p>",
+                            "excerpt": "The observer pattern is easily one of the most popular patterns in the bunch. And, luckily, it&#039;s...",
+                            "source_code": null,
+                            "position": 8,
+                            "dateSegments": {
+                                "published": "October 9, 2014",
+                                "publishedAlt": "Oct 9th, 2014",
+                                "publishedDiff": "6 years ago",
+                                "whenAvailableForHumans": "6 years"
+                            },
+                            "whenAvailableDate": "6 years",
+                            "lengthForHumans": "17:06",
+                            "isNew": false,
+                            "isScheduled": false,
+                            "path": "\/episodes\/186",
+                            "series": {
+                                "title": "Design Patterns in PHP",
+                                "taxonomy": {
+                                    "name": "Techniques",
+                                    "path": "https:\/\/laracasts.com\/browse\/techniques"
+                                },
+                                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/design-patterns-in-php.png",
+                                "path": "\/series\/design-patterns-in-php"
+                            },
+                            "viewingStatus": {
+                                "scheduled": false,
+                                "watchable": true,
+                                "requiresReactivation": false,
+                                "requiresBillingDetails": false,
+                                "isFavorited": false,
+                                "isCompleted": false,
+                                "isWatchingLater": false
+                            },
+                            "download": "\/\/player.vimeo.com\/external\/108496144.hd.mp4?s=fcbcd75f3fa43f9dbd8db0cea3538ad3"
+                        }
+                    ]
+                }
+            ],
+            "topics": [
+                {
+                    "name": "PHP ",
+                    "episode_count": 254,
+                    "series_count": 25,
+                    "path": "https:\/\/laracasts.com\/topics\/php",
+                    "theme": "default",
+                    "thumbnail": "php-logo.svg"
+                },
+                {
+                    "name": "Clean Code",
+                    "episode_count": 75,
+                    "series_count": 11,
+                    "path": "https:\/\/laracasts.com\/topics\/clean-code",
+                    "theme": "default",
+                    "thumbnail": "clean-code-logo.svg"
+                },
+                {
+                    "name": "OOP",
+                    "episode_count": 27,
+                    "series_count": 4,
+                    "path": "https:\/\/laracasts.com\/topics\/object-oriented-programming",
+                    "theme": "four",
+                    "thumbnail": "OOP-logo.svg"
+                }
+            ],
+            "viewingStatus": {
+                "isWatchingLater": false
+            },
+            "progress": {
+                "started": false,
+                "completionPercentage": 0,
+                "episodesCompleted": 0,
+                "completed": false,
+                "nextEpisodePosition": 1
+            }
+        },
+        "latestEpisode": {
+            "id": 186,
+            "chapter": 1,
+            "type": "episode",
+            "title": "Observe This, Fool",
+            "body": "<p>The observer pattern is easily one of the most popular patterns in the bunch. And, luckily, it&#039;s one of the easier ones to comprehend. Let&#039;s review the essentials, while ultimately translating this new knowledge over to Laravel&#039;s implementation (in version 5).<\/p>",
+            "excerpt": "The observer pattern is easily one of the most popular patterns in the bunch. And, luckily, it&#039;s...",
+            "source_code": null,
+            "position": 8,
+            "dateSegments": {
+                "published": "October 9, 2014",
+                "publishedAlt": "Oct 9th, 2014",
+                "publishedDiff": "6 years ago",
+                "whenAvailableForHumans": "6 years"
+            },
+            "whenAvailableDate": "6 years",
+            "lengthForHumans": "17:06",
+            "isNew": false,
+            "isScheduled": false,
+            "path": "\/episodes\/186",
+            "series": {
+                "title": "Design Patterns in PHP",
+                "taxonomy": {
+                    "name": "Techniques",
+                    "path": "https:\/\/laracasts.com\/browse\/techniques"
+                },
+                "thumbnail": "https:\/\/laracasts.s3.amazonaws.com\/series\/thumbnails\/design-patterns-in-php.png",
+                "path": "\/series\/design-patterns-in-php"
+            },
+            "viewingStatus": {
+                "scheduled": false,
+                "watchable": true,
+                "requiresReactivation": false,
+                "requiresBillingDetails": false,
+                "isFavorited": false,
+                "isCompleted": false,
+                "isWatchingLater": false
+            },
+            "download": "\/\/player.vimeo.com\/external\/108496144.hd.mp4?s=fcbcd75f3fa43f9dbd8db0cea3538ad3"
+        },
+        "progress": {
+            "episodeCount": 8,
+            "completionPercentage": "0",
+            "lastEpisodePositionCompleted": null
+        },
+        "shareMessage": "I%27m+watching+%22Design+Patterns+in+PHP%22+at+Laracasts%21+https%3A%2F%2Flaracasts.com%2Fseries%2Fdesign-patterns-in-php"
+    },
+    "url": "\/series\/design-patterns-in-php",
+    "version": "d121e9faeca6e2b3cb7d27d32e3a5216"
+}

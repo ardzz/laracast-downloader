@@ -1,0 +1,9 @@
+<?php
+
+use Laracast\LaracastConfig;
+
+LaracastConfig::setCookie(
+
+'laravel_session=eyJpdiI6ImNFUkR4eC9tL012T3hlZWFrUERjTkE9PSIsInZhbHVlIjoiNjNnYXNacjVrK3FXU1dJajZmb3RaYlNXckszMzZFWkNqOEZNLzJza0J5RHNFUWh4NXo3V0hLOEZscHpEaUhJSldjUUdHcVo0bE1WS2lIdkhwb095UXVobTd6UE5ybEZQK0ZaZG40cmZDcWhuZ2JpendrbGsvU1Z2cDFYRG03d0wiLCJtYWMiOiJiNDczMDI5OTdlOTUwMGQxZjBkMzkwMzU4M2M0YjVlY2NmZjE0MTVhYWVlMmU1NjM3ZDE1YThmYTBiMmUwMGU4In0%3D; expires=Wed, 23-Jun-2021 10:42:31 GMT; Max-Age=7200; path=/; httponly; samesite=lax'
+
+);
