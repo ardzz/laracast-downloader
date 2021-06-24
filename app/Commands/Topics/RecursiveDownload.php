@@ -72,12 +72,18 @@ class RecursiveDownload extends Command
                     if ($video){
                         $video_name_with_quality = $pathDownload . "[{$quality}]" . $parsedEpisode->metaData()->title(). '.mp4';
                         $video_name = $pathDownload .  $parsedEpisode->metaData()->title(). '.mp4';
-                        if (!Storage::exists($topic['name'] . '/' . $series['title']."/[{$quality}]" . $parsedEpisode->metaData()->title(). '.mp4') &&
+                        if (!Storage::exists($topic['name'] . '/' . $series['title']."/[{$quality}] " . $parsedEpisode->metaData()->title(). '.mp4') &&
                             !Storage::exists($topic['name'] . '/' . $series['title']. '/'.$parsedEpisode->metaData()->title().'.mp4')){
-                            $this->info('Duration :' . $parsedEpisode->metaData()->duration());
+                            $this->info('Duration : ' . $parsedEpisode->metaData()->duration());
                             $this->warn('Downloading episode ...');
-                            //print_r($video->flatten()->toArray());
-                            $this->startDownload($video->flatten()->toArray()[4], $video_name);
+                            //print_r($video->first());
+                            try {
+                                $this->startDownload($video->first['url'], $video_name_with_quality);
+                            }
+                            catch (\Throwable $exception){
+                                $this->error('download failed, reason : ' . $exception->getMessage());
+                                //$this->error($exception->getMessage());
+                            }
                             //print_r($pathDownload . $parsedEpisode->metaData()->title(). '.mp4');
                         }else{
                             $this->error('skipped');

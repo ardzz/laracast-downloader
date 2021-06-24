@@ -34,6 +34,7 @@ trait Download
                 }
                 if ($progress != NULL){
                     if ($current_size == $total_size){
+                        $progress->setProgress($current_size);
                         $progress->finish();
                     }else{
                         $averageSpeed = $current_size / (microtime(true) - $startTime);

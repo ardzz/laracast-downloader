@@ -8,6 +8,8 @@ use Laracast\Cores\Http\Request;
 use Laracast\Cores\Parser\AbstractParser;
 use Laracast\Cores\Parser\Collections\LoginCollection;
 use Laracast\Cores\Services\Laracast\Authentication;
+use Laracast\Cores\Services\Vimeo\Vimeo;
+use Laracast\Laracast;
 use Laracast\LaracastConfig;
 use LaravelZero\Framework\Commands\Command;
 
@@ -35,7 +37,7 @@ class Tesdir extends Command
     protected string $session_name = '.laracast_session.json';
     public function handle()
     {
-        $this->info('Get requirements');
+        /*$this->info('Get requirements');
         $required = Authentication::make()->getRequired();
         $login = Request::make()->getClient()->post('/sessions', [
             //'version' => 2,
@@ -67,7 +69,12 @@ class Tesdir extends Command
         $loginCollectable = ['cookies' => $cookies];
         Storage::put($this->session_name, json_encode($loginCollectable, JSON_PRETTY_PRINT));
         $output = new LoginCollection($loginCollectable);
-        var_dump($output);
+        var_dump($output);*/
+        Authentication::make()->login();
+        $episode = Laracast::episodes()->getDetails('episodes/1183');
+        print_r(
+            Vimeo::make($episode->metaData()->vimeoId())->metadata()->title()
+        );
     }
 
     /**

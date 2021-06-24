@@ -10,7 +10,7 @@ use Spatie\Url\Url;
 class LessonCollection extends AbstractParser
 {
     function title(){
-        return $this->quoteDecode($this->get('title'));
+        return str_replace('/', ' or ', $this->quoteDecode($this->get('title')));
     }
 
     function description(): string
@@ -28,6 +28,6 @@ class LessonCollection extends AbstractParser
 
     function vimeoId(){
         $url = Url::fromString($this->vimeoURL());
-        return str_replace('.hd.mp4', '', $url->getSegment(2));
+        return (int) str_replace('.hd.mp4', '', $url->getSegment(2));
     }
 }
