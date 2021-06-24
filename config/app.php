@@ -52,7 +52,7 @@ return [
     | this array to grant expanded functionality to your applications.
     |
     */
-    'app_storage' => '/home/ardhana/Videos/Laracast/',
+    'app_storage' => env('LARACAST_PATH_DOWNLOAD'),
 
     'providers' => [
         App\Providers\AppServiceProvider::class,

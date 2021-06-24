@@ -45,7 +45,7 @@ class Authentication
 
     function getRequired(){
         $firstVisit = Request::make()->getClient()->get('/', [
-            'version' => 2,
+            //'version' => 2,
             'headers' => [
                 'User-Agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0',
                 'Accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -69,7 +69,7 @@ class Authentication
             try {
                 $required = $this->getRequired();
                 $login = Request::make()->getClient()->post('/sessions', [
-                    'version' => 2,
+                    //'version' => 2,
                     'headers' => [
                         'Cookie' => $required[0],
                         'User-Agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0',

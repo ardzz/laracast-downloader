@@ -36,6 +36,7 @@ class RecursiveDownload extends Command
      */
     public function handle()
     {
+        //Storage::get()
         $quality = $this->choice("What quality episode do you want?", [
             '1080p', '540p',
             '720p', '360p',
@@ -59,7 +60,7 @@ class RecursiveDownload extends Command
                 $this->line('Time             : ' . $series['runTime']);
                 $this->warn('---------------------------------------');
                 Storage::makeDirectory($topic['name'] . '/' . $series['title']);
-                Authentication::make()->login();
+                Authentication::make()->login()->isLoginSuccess();
                 $episodes = Laracast::series()->getDetails($series['slug'])->episodes();
                 $pathDownload = env('LARACAST_PATH_DOWNLOAD') . $topic['name'] . '/' . $series['title'] . '/';
 
