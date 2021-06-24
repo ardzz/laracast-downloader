@@ -71,9 +71,9 @@ class Tesdir extends Command
         $output = new LoginCollection($loginCollectable);
         var_dump($output);*/
         Authentication::make()->login();
-        $episode = Laracast::episodes()->getDetails('episodes/1183');
+        $episode = Laracast::episodes()->getDetails('episodes/96');
         print_r(
-            Vimeo::make($episode->metaData()->vimeoId())->metadata()->title()
+            Vimeo::make($episode->metaData()->vimeoId())->videos()
         );
     }
 

@@ -35,13 +35,13 @@ class Request
                 'headers' => [
                     'cookie' => LaracastConfig::getCookie()
                 ],
-                //'proxy' => '127.0.0.1:8080',
+                //'proxy' => '127.0.0.1:8889',
                 'verify' => false
             ]);
         }else{
             return new Client([
                 'base_uri' => $this->base_url,
-                //'proxy' => '127.0.0.1:8080',
+                //'proxy' => '127.0.0.1:8889',
                 'verify' => false
             ]);
         }

@@ -13,7 +13,7 @@ class VimeoRequest
     function getClient(): Client
     {
         return new Client([
-            "base_uri" => $this->base_url
+            "base_uri" => $this->base_url,
             //'proxy' => '127.0.0.1:8889'
         ]);
     }

@@ -69,7 +69,7 @@ class RecursiveDownload extends Command
                     $this->info($parsedEpisode->metaData()->title());
                     $videoCollection = collect(Vimeo::make($parsedEpisode->metaData()->vimeoId())->progressive()->videos());
                     $video = $videoCollection->where('quality', '=', $quality);
-                    if ($video){
+                    if ($video->isNotEmpty()){
                         $filename = "[{$quality}] " . $parsedEpisode->metaData()->title(). '.mp4';
                         $video_name_with_quality = $pathDownload . $filename;
                         if (!Storage::exists($topic['name'] . '/' . $series['title']. "/{$filename}")){
@@ -85,7 +85,23 @@ class RecursiveDownload extends Command
                             $this->error('skipped');
                         }
                     }else{
+                        $video = $videoCollection->where('quality', '=', '720p')->first();
                         $this->error('Quality ('.$quality.') not found!');
+                        $this->info('Pick ' . $video['quality'] . ' as quality');
+                        $filename = "[{$quality}] " . $parsedEpisode->metaData()->title(). '.mp4';
+                        $video_name_with_quality = $pathDownload . $filename;
+                        if (!Storage::exists($topic['name'] . '/' . $series['title']. "/{$filename}")){
+                            $this->info('Duration : ' . $parsedEpisode->metaData()->duration());
+                            $this->warn('Downloading episode ...');
+                            try {
+                                $this->startDownload($video['url'], $video_name_with_quality);
+                            }
+                            catch (\Exception|\Throwable $exception){
+                                $this->error('download failed, reason : ' . $exception->getMessage());
+                            }
+                        }else{
+                            $this->error('skipped');
+                        }
                     }
                     $this->newLine(2);
                 }
