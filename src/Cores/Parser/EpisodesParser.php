@@ -9,11 +9,6 @@ use Laracast\Cores\Parser\Collections\LessonCollection;
 
 class EpisodesParser extends AbstractParser implements ParserInterface
 {
-    protected function getData()
-    {
-        return $this->data;
-    }
-
     protected function directAccess(){
         return new DirectCollection($this->getData());
     }

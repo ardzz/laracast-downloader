@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'version' => app('git.version'),
+    'version' => '1.0.0',//app('git.version'),
 
     /*
     |--------------------------------------------------------------------------
@@ -40,7 +40,7 @@ return [
     |
     */
 
-    'env' => 'production',
+    'env' => 'debug',
 
     /*
     |--------------------------------------------------------------------------
@@ -52,6 +52,7 @@ return [
     | this array to grant expanded functionality to your applications.
     |
     */
+    'app_storage' => '/home/ardhana/Videos/Laracast/',
 
     'providers' => [
         App\Providers\AppServiceProvider::class,

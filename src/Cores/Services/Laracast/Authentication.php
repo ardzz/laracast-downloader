@@ -17,7 +17,7 @@ use Laracast\LaracastConfig;
 
 class Authentication
 {
-    protected $session_name = 'session.json';
+    protected string $session_name = '.laracast_session.json';
 
     /**
      * @throws PasswordIsEmpty
@@ -96,7 +96,7 @@ class Authentication
                 $cookies = Request::parseCookieFromHeaders($login->getHeader('Set-Cookie'));
                 LaracastConfig::setCookie(Request::parserCookie($cookies));
                 $loginCollectable = ['cookies' => $cookies];
-                Storage::put('session.json', json_encode($loginCollectable, JSON_PRETTY_PRINT));
+                Storage::put($this->session_name, json_encode($loginCollectable, JSON_PRETTY_PRINT));
                 return new LoginCollection($loginCollectable);
             }
             catch (BadResponseException $badResponseException){

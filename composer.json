@@ -21,6 +21,7 @@
         "laminas/laminas-text": "^2.8",
         "laravel-zero/framework": "^8.8",
         "nunomaduro/laravel-console-menu": "^3.2",
+        "scriptfusion/byte-formatter": "^4.0",
         "spatie/url": "^2.0",
         "vlucas/phpdotenv": "^5.3",
         "voku/simple_html_dom": "^4.7"

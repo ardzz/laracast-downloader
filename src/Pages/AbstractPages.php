@@ -19,7 +19,7 @@ abstract class AbstractPages
         $output  = json_decode($json, 1);
 
         $this->setRawData($output);
-        //LaracastConfig::setAuth($this->getRawData()['props']['auth']);
+        LaracastConfig::setAuth($this->getRawData()['props']['auth']);
 
         return $output;
     }

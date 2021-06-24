@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Commands;
+namespace App\Commands\Topics;
 
 use ErrorException;
 use Illuminate\Console\Scheduling\Schedule;
 use Laracast\Laracast;
 use LaravelZero\Framework\Commands\Command;
 
-class TopicGet extends Command
+class Get extends Command
 {
     /**
      * The signature of the command.
