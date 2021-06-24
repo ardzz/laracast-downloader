@@ -76,9 +76,9 @@ class RecursiveDownload extends Command
                             $this->info('Duration : ' . $parsedEpisode->metaData()->duration());
                             $this->warn('Downloading episode ...');
                             try {
-                                $this->startDownload($video->first['url'], $video_name_with_quality);
+                                $this->startDownload($video->first()['url'], $video_name_with_quality);
                             }
-                            catch (\Throwable $exception){
+                            catch (\Exception|\Throwable $exception){
                                 $this->error('download failed, reason : ' . $exception->getMessage());
                             }
                         }else{
