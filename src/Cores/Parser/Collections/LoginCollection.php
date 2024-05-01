@@ -28,7 +28,6 @@ class LoginCollection extends AbstractParser
 
     function isCookieUsable(): AuthCollection
     {
-        Laracast::episodes()->getDetails('/episodes/1620');
         return LaracastConfig::getAuth();
     }
 }

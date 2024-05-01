@@ -36,12 +36,6 @@ class RecursiveDownload extends Command
      */
     public function handle()
     {
-        //Storage::get()
-        $quality = $this->choice("What quality episode do you want?", [
-            '1080p', '540p',
-            '720p', '360p',
-            '240p'
-        ], '540p');
         $topics = Laracast::topics()->getAll();
 
         foreach ($topics as $topic){
@@ -64,19 +58,19 @@ class RecursiveDownload extends Command
                 $episodes = Laracast::series()->getDetails($series['slug'])->episodes();
                 $pathDownload = env('LARACAST_PATH_DOWNLOAD') . $topic['name'] . '/' . $series['title'] . '/';
 
-                foreach ($episodes as $episode){
-                    $parsedEpisode = EpisodesParser::direct($episode);
+                $index_episode = 1;
+                foreach ($episodes as $episode) {
+                    $parsedEpisode = Laracast::episodes()->getDetails($series['slug'], $index_episode);
                     $this->info($parsedEpisode->metaData()->title());
-                    $videoCollection = collect(Vimeo::make($parsedEpisode->metaData()->vimeoId())->progressive()->videos());
-                    $video = $videoCollection->where('quality', '=', $quality);
-                    if ($video->isNotEmpty()){
-                        $filename = "[{$quality}] " . $parsedEpisode->metaData()->title(). '.mp4';
-                        $video_name_with_quality = $pathDownload . $filename;
-                        if (!Storage::exists($topic['name'] . '/' . $series['title']. "/{$filename}")){
+                    $link = $parsedEpisode->getDirectLink();
+                    if ($link){
+                        $filename = $parsedEpisode->metaData()->title(). '.mp4';
+                        $path = $pathDownload . $filename;
+                        if (!Storage::exists($path)){
                             $this->info('Duration : ' . $parsedEpisode->metaData()->duration());
                             $this->warn('Downloading episode ...');
                             try {
-                                $this->startDownload($video->first()['url'], $video_name_with_quality);
+                                $this->startDownload($link, $path);
                             }
                             catch (\Exception|\Throwable $exception){
                                 $this->error('download failed, reason : ' . $exception->getMessage());
@@ -85,25 +79,10 @@ class RecursiveDownload extends Command
                             $this->error('skipped');
                         }
                     }else{
-                        $video = $videoCollection->where('quality', '=', '720p')->first();
-                        $this->error('Quality ('.$quality.') not found!');
-                        $this->info('Pick ' . $video['quality'] . ' as quality');
-                        $filename = "[{$quality}] " . $parsedEpisode->metaData()->title(). '.mp4';
-                        $video_name_with_quality = $pathDownload . $filename;
-                        if (!Storage::exists($topic['name'] . '/' . $series['title']. "/{$filename}")){
-                            $this->info('Duration : ' . $parsedEpisode->metaData()->duration());
-                            $this->warn('Downloading episode ...');
-                            try {
-                                $this->startDownload($video['url'], $video_name_with_quality);
-                            }
-                            catch (\Exception|\Throwable $exception){
-                                $this->error('download failed, reason : ' . $exception->getMessage());
-                            }
-                        }else{
-                            $this->error('skipped');
-                        }
+                        $this->error('skipped');
                     }
                     $this->newLine(2);
+                    $index_episode++;
                 }
 
                 $this->warn('---------------------------------------');
