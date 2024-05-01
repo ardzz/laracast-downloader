@@ -22,12 +22,7 @@ class LessonCollection extends AbstractParser
         return $this->get('lengthForHumans');
     }
 
-    function vimeoURL(){
-        return $this->get('download');
-    }
-
     function vimeoId(){
-        $url = Url::fromString($this->vimeoURL());
-        return (int) str_replace('.hd.mp4', '', $url->getSegment(2));
+        return $this->get('vimeoId');
     }
 }
